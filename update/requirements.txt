@@ -9,4 +9,4 @@ bottleneck
 xlrd
 openpyxl
 pandas
-git+https://github.com/datos-abiertos-bo/perkins@master#perkins
+git+https://github.com/sociedatos/perkins@master#perkins

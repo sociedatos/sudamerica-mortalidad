@@ -38,4 +38,4 @@ jobs:
           git pull
           git add -A
           git commit -m "[ci] actualización mortalidad"
-          git push -q "https://$GH_TOKEN@github.com/datos-abiertos-bo/mortalidad-sudamerica.git" main
+          git push -q "https://$GH_TOKEN@github.com/sociedatos/mortalidad-sudamerica.git" main
