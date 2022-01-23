@@ -1,0 +1,12 @@
+beautifulsoup4
+lxml
+requests
+requests[socks]
+unidecode
+numpy
+numexpr
+bottleneck
+xlrd
+openpyxl
+pandas
+git+https://github.com/datos-abiertos-bo/perkins@master#perkins
