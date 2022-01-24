@@ -27,8 +27,8 @@ jobs:
       - name: git status
         id: git-status
         run: |
-          git config --global user.email "datos-abiertos-bot@example.com"
-          git config --global user.name "datos-abiertos-bot"
+          git config --global user.email "mauriforonda+socialdatos@gmail.com"
+          git config --global user.name "sociedatosbot"
           echo ::set-output name=result::$(git status | tr -d "\n" | grep -c "nothing to commit")
       - name: commit
         if: steps.git-status.outputs.result == 0
@@ -38,4 +38,4 @@ jobs:
           git pull
           git add -A
           git commit -m "[ci] actualización mortalidad"
-          git push -q "https://$GH_TOKEN@github.com/sociedatos/mortalidad-sudamerica.git" main
+          git push -q "https://$GH_TOKEN@github.com/sociedatos/sudamerica-mortalidad.git" main
