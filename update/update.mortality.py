@@ -622,7 +622,7 @@ def update_argentina():
     pass
 
 
-BOLIVIA_URL = 'https://raw.githubusercontent.com/pr0nstar/covid19-data/master/raw/bolivia/sereci/sereci.by.death.date.csv'
+BOLIVIA_URL = 'https://raw.githubusercontent.com/sociedatos/bo-mortalidad/main/registro.civil.csv'
 def update_bolivia():
     df = pd.read_csv(BOLIVIA_URL, index_col=0)
 
