@@ -9,4 +9,5 @@ bottleneck
 xlrd
 openpyxl
 pandas
+html5lib
 git+https://github.com/sociedatos/perkins@main#perkins

@@ -592,7 +592,6 @@ def update_paraguay():
                 dept_df['adm1_name'] = adm1_name
 
             except Exception as e:
-                print(e)
                 dept_df = None
 
             df = pd.concat([df, dept_df])
@@ -713,14 +712,14 @@ def do_merge(df, path):
 
 
 UPDATE_FNS = [
-    # update_chile,
-    # update_brazil,
+    update_chile,
+    update_brazil,
     update_ecuador,
     update_colombia,
-    # update_peru,
+    update_peru,
     update_paraguay,
     # update_argentina,
-    # update_bolivia
+    update_bolivia
 ]
 if __name__ == '__main__':
     iso_level_0, iso_geo_names, geo_names = perkins.fetch_geocodes()
