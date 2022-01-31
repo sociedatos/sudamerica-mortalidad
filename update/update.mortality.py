@@ -10,6 +10,7 @@ import unidecode
 import traceback
 
 import perkins
+import perkins.requests
 
 from bs4 import BeautifulSoup
 
@@ -248,7 +249,12 @@ ECU_CANTONES_MAP = {
 }
 ECUADOR_URL = 'https://www.registrocivil.gob.ec/cifrasdefuncion/'
 def update_ecuador():
-    cdata = requests.get(ECUADOR_URL, verify=False, headers=perkins.DEFAULT_HEADERS)
+    cdata = requests.get(
+        ECUADOR_URL,
+        verify=False,
+        headers=perkins.DEFAULT_HEADERS,
+        timeout=120
+    )
     cdata = BeautifulSoup(cdata.text, 'html.parser')
 
     cdata_btns = cdata.find_all('tr')
@@ -256,8 +262,18 @@ def update_ecuador():
         _ for _ in cdata_btns if 'defunciones generales' in _.text.lower()
     ).findChild('a').attrs['href']
 
-    cdata = requests.get(download_url, verify=False, headers=perkins.DEFAULT_HEADERS)
-    df = pd.read_excel(cdata.content)
+    cdata = perkins.requests.do_request(
+        download_url,
+        verify=False,
+        headers=perkins.DEFAULT_HEADERS,
+        timeout=30
+    )
+
+    dept_engine = 'xlrd'
+    if download_url.endswith('xlsx'):
+        dept_engine = 'openpyxl'
+
+    df = pd.read_excel(cdata.content, engine=dept_engine)
 
     try:
         df_columns = [_.encode('cp1252').decode('utf-8') for _ in df.columns]
@@ -574,7 +590,9 @@ def update_paraguay():
             try:
                 dept_df = do_download_paraguay(dept_code, year=year)
                 dept_df['adm1_name'] = adm1_name
-            except:
+
+            except Exception as e:
+                print(e)
                 dept_df = None
 
             df = pd.concat([df, dept_df])
@@ -695,14 +713,14 @@ def do_merge(df, path):
 
 
 UPDATE_FNS = [
-    update_chile,
-    update_brazil,
+    # update_chile,
+    # update_brazil,
     update_ecuador,
-    update_colombia,
-    update_peru,
-    update_paraguay,
+    # update_colombia,
+    # update_peru,
+    # update_paraguay,
     # update_argentina,
-    update_bolivia
+    # update_bolivia
 ]
 if __name__ == '__main__':
     iso_level_0, iso_geo_names, geo_names = perkins.fetch_geocodes()
