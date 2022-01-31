@@ -716,9 +716,9 @@ UPDATE_FNS = [
     # update_chile,
     # update_brazil,
     update_ecuador,
-    # update_colombia,
+    update_colombia,
     # update_peru,
-    # update_paraguay,
+    update_paraguay,
     # update_argentina,
     # update_bolivia
 ]
