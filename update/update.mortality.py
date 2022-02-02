@@ -392,7 +392,7 @@ def update_colombia():
         perkins.input.powerbi.build_where( # año >= 2021
             TABLES['calendario'],
             column='año',
-            value='2020L'
+            value='2021L'
         ),
         perkins.input.powerbi.build_where( # fallecidos > 0
             TABLES['Medidas'],
