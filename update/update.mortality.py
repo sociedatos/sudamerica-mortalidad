@@ -2,15 +2,20 @@
 # coding: utf-8
 
 import io
+import json
+import uuid
+import base64
 import requests
 import warnings
 import urllib3
 import datetime
 import unidecode
 import traceback
+import itertools
 
 import perkins
 import perkins.requests
+import perkins.input.powerbi
 
 from bs4 import BeautifulSoup
 
@@ -336,88 +341,102 @@ def update_ecuador():
     }
 
 
-BASE_COLOMBIA_URL = 'https://www.dane.gov.co'
-COLOMBIA_URL = BASE_COLOMBIA_URL + '/index.php/estadisticas-por-tema/demografia-y-poblacion/informe-de-seguimiento-defunciones-por-covid-19'
+COLOMBIA_TOKEN = 'eyJrIjoiYjY5MDAzYzUtMjViOS00YjRiLWEzN2YtMTUyODQ0NGIyMDJhIiwidCI6ImJmYjdlMTNhLTdmYjctNDAxNi04MzBjLWQzNzE2ZThkZDhiOCJ9'
+COLOMBIA_API_URL = 'https://wabi-paas-1-scus-api.analysis.windows.net'
+COLOMBIA_API_URL = COLOMBIA_API_URL + '/public/reports/querydata?synchronous=true'
 def update_colombia():
-    cdata = requests.get(COLOMBIA_URL, verify=False, headers=perkins.DEFAULT_HEADERS)
-    cdata = BeautifulSoup(cdata.text, 'html.parser')
+    # This may fail in the future due to a change in the dashboards' uri
+    # TODO: fetch directly from: https://experience.arcgis.com/experience/d9bfa6a650a249099b5f290a6c454804/?draft=true
+    resource_key = json.loads(base64.b64decode(COLOMBIA_TOKEN))['k']
 
-    cdata_docs = cdata.findChild('div', {'class': 'docs-tecnicos'})
-    cdata_btns = cdata_docs.find_all('tr')
+    headers = perkins.DEFAULT_HEADERS.copy()
+    headers['X-PowerBI-ResourceKey'] = resource_key
+    headers['RequestId'] = str(uuid.uuid4())
 
-    download_url = next(
-        _ for _ in cdata_btns if 'departamento y sexo' in _.text
-    ).findChild('a').attrs['href']
+    CONNECTION = {
+        'application_context': {
+            'DatasetId': '1c8b60ae-edc0-47fb-94e9-28cf505f2e36',
+            'Sources': [{
+                'ReportId': '7e45edd0-e762-4036-a8c9-5505a82ae12a',
+                'VisualId': 'ee426d52341918cd5204'
+            }]
+        },
+        'model_id': 1699279
+    }
 
-    if download_url.startswith('/'):
-        download_url = BASE_COLOMBIA_URL + download_url
+    TABLES = {
+        'calendario': {'Name': 'c', 'Entity': 'calendario', 'Type': 0},
+        'Divipola': {'Name': 'd', 'Entity': 'Divipola', 'Type': 0},
+        'Medidas': {'Name': 'm', 'Entity': 'Medidas', 'Type': 0},
+        'Lugar': {'Name': 't', 'Entity': 'Tbl_Ocurrencia_defuncion', 'Type': 0},
+    }
+    FROM_TABLES = list(TABLES.values())
 
-    cdata = requests.get(download_url, verify=False, headers=perkins.DEFAULT_HEADERS)
-
-    df = pd.read_excel(cdata.content, sheet_name=1, header=None, engine='openpyxl')
-    df = df.dropna(how='all').iloc[3:]
-
-    # Parse Excel format
-
-    df.iloc[0] = df.iloc[0].fillna(method='ffill').fillna(
-        pd.Series(['anio', 'lugar', 'semana'])
-    )
-    df.columns = pd.MultiIndex.from_frame(
-        df.iloc[:2].T.fillna(method='ffill', axis=1)
-    )
-    df = df.iloc[2:-4]
-
-    df = df[(df['lugar'] != 'Sin información').to_numpy()]
-    df['anio'] = df[(df['lugar'] == 'Total').to_numpy()]['anio'].fillna('2021pr')
-    df.iloc[:, :3] = df.iloc[:, :3].fillna(method='ffill')
-
-    df = df[~(df['lugar'] == 'Total').to_numpy()]
-    df = df[~(df['semana'] == 'Total').to_numpy()]
-
-    df = df[df.columns[
-        df.columns.get_level_values(1) != 'Total'
-    ]].reset_index(drop=True)
-
-    df['anio'] = df['anio'].applymap(
-        lambda _: _[:-2] if str(_).endswith('pr') else _
-    )
-    df['anio'] = df['anio'].astype(int)
-    df['semana'] = df['semana'].applymap(lambda _: _[7:]).astype(int)
-
-    df.index = pd.MultiIndex.from_frame(df[['anio', 'semana', 'lugar']])
-    df = df.iloc[:, 3:]
-
-    df.index.names = [_[0] for _ in df.index.names]
-    df.columns.names = ['', '']
-
-    # Format
-
-    df = df.sum(axis=1).reset_index()
-
-    df_index = df[['anio', 'semana']].apply(
-        lambda _: '{}-{}-1'.format(_['anio'], _['semana']),
-        axis=1
-    )
-    df_index = df_index.map(
-        lambda _: datetime.datetime.strptime(_, "%G-%V-%u")
+    do_build_fields = lambda table, fields: (
+        [perkins.input.powerbi.build_fields(TABLES[table], field) for field in fields]
     )
 
-    df['date'] = df_index
-    df = df.drop(['anio', 'semana'], axis=1)
+    SELECT_COLUMNS = [
+        do_build_fields('calendario', ['Date']),
+        do_build_fields('Divipola', ['Departamento']),
+        [
+            perkins.input.powerbi.build_fields(
+                TABLES['Medidas'], _, type='Measure'
+            ) for _ in ['Conteo_def_Año_Actual']
+        ],
+    ]
+    SELECT_COLUMNS = itertools.chain(*SELECT_COLUMNS)
+    SELECT_COLUMNS = list(SELECT_COLUMNS)
 
-    df.columns = ['adm1_name', 'deaths', 'date']
-    df = df.set_index(['adm1_name', 'date'])
-    df = df.sort_index()
+    WHERE = [
+        perkins.input.powerbi.build_where( # año >= 2021
+            TABLES['calendario'],
+            column='año',
+            value='2020L'
+        ),
+        perkins.input.powerbi.build_where( # fallecidos > 0
+            TABLES['Medidas'],
+            column='Conteo_def_Año_Actual',
+            value='0L',
+            kind=1,
+            type='Measure'
+        ),
+        perkins.input.powerbi.build_where( # tomar datos por lugar de ocurrencia
+            TABLES['Lugar'],
+            column='lugar_defuncion',
+            value="'Cod_mun_Ocurrencia'",
+            condition='In'
+        ),
+    ]
 
-    # Patch Drop Locations: Extranjero
-    df = df.drop('Extranjero', level=0)
+    QUERY = perkins.input.powerbi.build_query(
+        CONNECTION, FROM_TABLES, SELECT_COLUMNS, WHERE, []
+    )
 
+    data = requests.post(
+        COLOMBIA_API_URL, json=QUERY, headers=headers, timeout=90
+    )
+    data = data.json()
+
+    df = perkins.input.powerbi.inflate_data(
+        data, ['date', 'adm1_name', 'deaths']
+    )
+    df = df.replace('', np.nan).fillna(method='ffill')
+    df['date'] = pd.to_datetime(df['date'], unit='ms')
+
+    df['adm1_name'] = df['adm1_name'].replace({
+        'BOGOTÁ, D. C.': 'BOGOTA',
+        'ARCHIPIÉLAGO DE SAN ANDRÉS, PROVIDENCIA Y SANTA CATALINA': 'SAN ANDRES Y PROVIDENCIA'
+    })
+
+    df = df.groupby(['adm1_name', pd.Grouper(key='date', freq='W')]).sum()
     df = storage_format(
         df,
         iso_code='CO',
         frequency='weekly',
         country_name='Colombia'
     )
+    df['date'] = df['date'] - pd.Timedelta(days=6)
 
     return {
         'south.america.subnational.mortality': df,
