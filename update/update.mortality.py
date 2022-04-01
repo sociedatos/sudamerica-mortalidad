@@ -341,7 +341,7 @@ def update_ecuador():
     }
 
 
-COLOMBIA_TOKEN = 'eyJrIjoiNGEwZDk4OTYtZTczMi00NDJlLTkwZDAtMWM0ZWFlZDc2MGU3IiwidCI6ImJmYjdlMTNhLTdmYjctNDAxNi04MzBjLWQzNzE2ZThkZDhiOCJ9'
+COLOMBIA_TOKEN = 'eyJrIjoiNzU4ZjUwNGEtNjlhNy00NmU4LWJmYTktYTY1YTZiMGFkNjIyIiwidCI6ImJmYjdlMTNhLTdmYjctNDAxNi04MzBjLWQzNzE2ZThkZDhiOCJ9'
 COLOMBIA_API_URL = 'https://wabi-paas-1-scus-api.analysis.windows.net'
 COLOMBIA_API_URL = COLOMBIA_API_URL + '/public/reports/querydata?synchronous=true'
 def update_colombia():
