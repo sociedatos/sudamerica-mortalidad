@@ -252,7 +252,7 @@ ECU_CANTONES_MAP = {
     'Rio Verde': 'Rioverde',
     'Yaguachi': 'San Jacinto de Yaguachi'
 }
-ECUADOR_URL = 'https://www.registrocivil.gob.ec/cifrasdefuncion/'
+ECUADOR_URL = 'https://www.registrocivil.gob.ec/cifras_defunciones_2022/'
 def update_ecuador():
     cdata = requests.get(
         ECUADOR_URL,
