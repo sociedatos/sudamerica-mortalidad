@@ -278,15 +278,17 @@ def update_ecuador():
     if download_url.endswith('xlsx'):
         dept_engine = 'openpyxl'
 
-    df = pd.read_excel(cdata.content, engine=dept_engine)
+    df = pd.read_excel(cdata.content, engine=dept_engine, header=None)
+    df = df[~df.isna().all(axis=1)]
 
     try:
-        df_columns = [_.encode('cp1252').decode('utf-8') for _ in df.columns]
+        df_columns = [_.encode('cp1252').decode('utf-8') for _ in df.iloc[0]]
     except:
-        df_columns = df.columns
+        df_columns = df.iloc[0]
 
     df_columns = [unidecode.unidecode(_) for _ in df_columns]
     df.columns = [_.lower().replace(' ', '_') for _ in df_columns]
+    df = df.iloc[1:]
 
     df = df.drop(['zona', 'mes_def', 'dia_def'], axis=1)
     df.iloc[:, :3] = df.iloc[:, :3].applymap(do_title)
