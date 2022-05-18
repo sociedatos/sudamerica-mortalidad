@@ -275,7 +275,13 @@ def update_ecuador():
     )
 
     dept_engine = 'xlrd'
-    if download_url.endswith('xlsx'):
+    if (
+        download_url.endswith('xlsx') or
+        (
+            'Content-Location' in cdata.headers and
+            cdata.headers['Content-Location'].endswith('xlsx')
+        )
+    ):
         dept_engine = 'openpyxl'
 
     df = pd.read_excel(cdata.content, engine=dept_engine, header=None)
