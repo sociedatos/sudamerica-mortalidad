@@ -24,6 +24,7 @@ import numpy as np
 
 warnings.filterwarnings('ignore', category=urllib3.exceptions.InsecureRequestWarning)
 warnings.filterwarnings('ignore', category=FutureWarning)
+warnings.filterwarnings('ignore', category=UserWarning)
 warnings.filterwarnings('ignore', category=pd.errors.PerformanceWarning)
 
 
@@ -535,7 +536,7 @@ PARAGUAY_DEPTS = {
   '17': 'Alto Paraguay',
   '18': 'Asunción'
 }
-PARAGUAY_URL = 'http://ssiev.mspbs.gov.py/20170426/defuncion_reportes/lista_multireporte_defuncion.php'
+PARAGUAY_URL = 'http://ssiev.mspbs.gov.py/20220618/defuncion_reportes/lista_multireporte_defuncion.php'
 PARAGUAY_DATA = {
     'elegido': 2,
     'xfila': 'coddist',
