@@ -1,2 +1,3 @@
 update/__pycache__/
 update/update_mortality_other.py
+update/update_mortality_micro.py
