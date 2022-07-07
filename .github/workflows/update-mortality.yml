@@ -23,7 +23,7 @@ jobs:
       - name: run update script
         id: run_update_script
         run: |
-          python update/update.mortality.py
+          python update/update_mortality.py
       - name: git status
         id: git-status
         run: |

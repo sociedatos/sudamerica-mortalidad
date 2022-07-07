@@ -613,7 +613,7 @@ def do_download_paraguay(dept_code, year=2021):
 def update_paraguay():
     df = pd.DataFrame([])
 
-    for year in [2021, 2022]:
+    for year in [2022]:
         for dept_code, adm1_name in PARAGUAY_DEPTS.items():
             try:
                 dept_df = do_download_paraguay(dept_code, year=year)
