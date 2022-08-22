@@ -439,6 +439,7 @@ def update_colombia():
     })
 
     df = df.groupby(['adm1_name', pd.Grouper(key='date', freq='W')]).sum()
+    df = df.unstack(level=0).iloc[1:].T.stack().rename('deaths').to_frame()
     df = storage_format(
         df,
         iso_code='CO',
