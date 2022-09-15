@@ -4,6 +4,7 @@
 import io
 import json
 import uuid
+import py7zr
 import base64
 import requests
 import warnings
@@ -18,6 +19,7 @@ import perkins.requests
 import perkins.input.powerbi
 
 from bs4 import BeautifulSoup
+from zipfile import ZipFile
 
 import pandas as pd
 import numpy as np
@@ -118,21 +120,82 @@ def storage_format(df, iso_code=None, **kwargs):
     return df
 
 
-CHILE_URL = 'https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto32/Defunciones.csv?raw=true'
+CHILE_BASE_URL = 'https://deis.minsal.cl/wp-admin/admin-ajax.php'
+CHILE_INDEX_PARAMS = {
+    'action': 'wp_ajax_ninja_tables_public_action',
+    'table_id': '2889',
+    'target_action': 'get-all-data',
+    'default_sorting': 'manual_sort',
+}
+CHL_ADM1_MAP = {
+    'Metropolitana de Santiago': 'Santiago Metropolitan',
+    'La Araucanía': 'Araucania',
+    "Libertador B. O'Higgins": "O'Higgins",
+    'Magallanes y de La Antártica Chilena': 'Magallanes',
+    'Aisén del Gral. C. Ibáñez del Campo': 'Aisen'
+}
 def update_chile():
-    df = pd.read_csv(CHILE_URL)
-    df = df.set_index(['Region', 'Codigo region', 'Comuna', 'Codigo comuna'])
-    df.columns = pd.to_datetime(df.columns)
+    req = requests.get(CHILE_BASE_URL, params=CHILE_INDEX_PARAMS)
+    def_file = next(
+        _['value'] for _ in req.json() if _['value']['tags'] == 'defunciones'
+    )
 
-    df = df.stack()
+    req = perkins.requests.do_request(def_file['ver'], max_retry=10)
+    fzip = ZipFile(io.BytesIO(req.content))
+
+    # Process metadata
+    meta_file = next(
+        (_ for _ in fzip.namelist() if _.endswith('xlsx')),
+        None
+    )
+    meta_file = fzip.open(meta_file)
+
+    meta_df = pd.read_excel(meta_file, header=None, index_col=None)
+    meta_df = meta_df.iloc[3:, 1:].T.set_index(keys=3).T
+    meta_df.columns = [
+        unidecode.unidecode(_.lower()).replace(' ', '_') for _ in meta_df.columns
+    ]
+
+    # Process def file
+    data_file = next(
+        (_ for _ in fzip.namelist() if _.endswith('csv')),
+        None
+    )
+    data_file = fzip.open(data_file)
+
+    chile_df = pd.read_csv(
+        data_file,
+        sep=';',
+        encoding='latin1',
+        header=None,
+        index_col=None
+    )
+
+    chile_df.columns = meta_df['nombre_de_la_variable'].str.lower().values
+    chile_df['fecha_def'] = pd.to_datetime(chile_df['fecha_def'])
+
+    chile_df = chile_df.sort_values('fecha_def')
+    chile_df['glosa_reg_res'] = chile_df['glosa_reg_res'].str.replace(
+        r'^Del* +', '', regex=True
+    )
+
+    chile_df['glosa_reg_res'] = chile_df['glosa_reg_res'].replace(CHL_ADM1_MAP)
+    chile_df = chile_df[chile_df['glosa_reg_res'] != 'Ignorada']
+
+    df = chile_df.groupby([
+        'glosa_reg_res', 'glosa_comuna_residencia', 'fecha_def'
+    ])['ano_def'].count().rename('defunciones')
     df = df.reset_index()
-
-    df = df[['Region', 'Comuna', 'level_4', 0]]
     df.columns = ['adm1_name', 'adm3_name', 'date', 'deaths']
 
-    df['adm3_name'] = df['adm3_name'].replace({'Coihaique': 'Coyhaique'})
-    df = df.sort_index().groupby(['adm1_name', 'adm3_name', 'date']).sum()
-    df = df.reset_index()
+    df['adm3_name'] = df['adm3_name'].replace({
+        'Coihaique': 'Coyhaique',
+        'Ránquil': 'Ranquil',
+        'Los Ángeles': 'Los Angeles',
+        'Aisén': 'Aysén',
+        'Los Álamos': 'Los Alamos',
+    })
+    df = df[df['adm3_name'] != 'Antártica']
 
     global geo_sa_df, sa_cities
 
@@ -253,7 +316,7 @@ ECU_CANTONES_MAP = {
     'Rio Verde': 'Rioverde',
     'Yaguachi': 'San Jacinto de Yaguachi'
 }
-ECUADOR_URL = 'https://www.registrocivil.gob.ec/cifras_defunciones_2022/'
+ECUADOR_URL = 'https://www.registrocivil.gob.ec/registro-civil-cifras-defunciones/'
 def update_ecuador():
     cdata = requests.get(
         ECUADOR_URL,

@@ -11,4 +11,5 @@ openpyxl
 pandas
 html5lib
 uuid
+py7zr
 git+https://github.com/sociedatos/perkins@main#perkins
