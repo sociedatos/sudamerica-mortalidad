@@ -516,16 +516,14 @@ def update_colombia():
     }
 
 
-PERU_URL = 'https://cloud.minsa.gob.pe/s/nqF2irNbFomCLaa/download'
+PERU_URL = 'https://cloud.minsa.gob.pe/s/g9KdDRtek42X3pg/download'
 def update_peru():
     cdata = requests.get(PERU_URL, headers=perkins.DEFAULT_HEADERS)
-    df = pd.read_csv(
-        io.BytesIO(cdata.content),
-        delimiter='|',
-        encoding='utf-8'
-    )
+    with py7zr.SevenZipFile(io.BytesIO(cdata.content), mode='r') as archive:
+        archive_data = archive.readall()
+        df = pd.read_csv([*archive_data.values()][0], encoding='utf-8')
 
-    df['FECHA'] = pd.to_datetime(df['FECHA'])
+    df['FECHA'] = pd.to_datetime(df['FECHA'], dayfirst=True)
     df = df.sort_values('FECHA')
 
     df = df[df['PAIS DOMICILIO'] == 'PERU']
@@ -799,13 +797,13 @@ def do_merge(df, path):
 
 
 UPDATE_FNS = [
-    update_chile,
-    update_brazil,
-    update_ecuador,
-    update_colombia,
+    # update_chile,
+    # update_brazil,
+    # update_ecuador,
+    # update_colombia,
     update_peru,
-    update_paraguay,
-    update_bolivia
+    # update_paraguay,
+    # update_bolivia
 ]
 if __name__ == '__main__':
     iso_level_0, iso_geo_names, geo_names = perkins.fetch_geocodes()
