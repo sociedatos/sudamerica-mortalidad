@@ -6,6 +6,7 @@ import json
 import uuid
 import py7zr
 import base64
+import chardet
 import requests
 import warnings
 import urllib3
@@ -163,10 +164,14 @@ def update_chile():
     )
     data_file = fzip.open(data_file)
 
+    data_sample = data_file.read(4096)
+    data_encoding = chardet.detect(data_sample)
+    data_file.seek(0)
+
     chile_df = pd.read_csv(
         data_file,
         sep=';',
-        encoding='latin1',
+        encoding=data_encoding['encoding'],
         header=None,
         index_col=None
     )

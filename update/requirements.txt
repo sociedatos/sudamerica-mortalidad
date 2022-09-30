@@ -12,4 +12,5 @@ pandas
 html5lib
 uuid
 py7zr
+chardet
 git+https://github.com/sociedatos/perkins@main#perkins
