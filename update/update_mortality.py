@@ -4,6 +4,7 @@
 import io
 import json
 import uuid
+import time
 import py7zr
 import base64
 import chardet
@@ -228,7 +229,8 @@ def update_chile():
 
     cities = sa_cities[sa_cities['name_0'] == 'Chile']['name_2']
     cities = pd.concat([cities, cities.apply(unidecode.unidecode)]).drop_duplicates()
-    df_cities = df_cities.loc[pd.IndexSlice[:, cities], :]
+
+    df_cities = df_cities.reindex(cities.unique(), level='adm2_name').dropna()
 
     df_cities = df_cities.sort_index()
     df_cities = storage_format(
@@ -245,28 +247,71 @@ def update_chile():
     }
 
 
-def do_download_brazil(URL, fields):
-    df = pd.read_csv(URL)
-    df['date'] = pd.to_datetime(df['date'])
+BR_BASE_URL = 'https://transparencia.registrocivil.org.br/especial-covid'
+BR_STATES_URL = 'https://raw.githubusercontent.com/datasets-br/state-codes/master/data/br-state-codes.csv'
+BR_STATES_FETCH_URL = 'https://transparencia.registrocivil.org.br/api/covid-cardiaco'
 
-    drop_columns = [_ + '_ibge_code' for _ in fields]
-    df = df.drop(drop_columns + ['place'], axis=1)
-
-    df = df.groupby(fields + ['date']).sum().sum(axis=1)
-    df = df.reset_index()
-
-    return df
-
-
-BRAZIL_STATES_URL = 'https://raw.githubusercontent.com/datasets-br/state-codes/master/data/br-state-codes.csv'
-BRAZIL_URL = 'https://github.com/capyvara/brazil-civil-registry-data/blob/master/civil_registry_covid_states.csv?raw=true'
-BRAZIL_CITIES_URL = 'https://github.com/capyvara/brazil-civil-registry-data/blob/master/civil_registry_covid_cities.csv?raw=true'
+BR_STATES = 'AC AL AM AP BA CE DF ES GO MA MG MS MT PA PB PE PI PR RJ RN RO RR RS SC SE SP TO'.split(' ')
+BR_STATES_PARAMS = {
+    'start_date': '2020-03-16',
+    'end_date': pd.to_datetime('now').strftime('%Y-%m-%d'),
+    'state': 'all',
+    'city_id': 'all',
+    'chart': 'chartCardiac4',
+    'places[]': [
+        'HOSPITAL', 'DOMICILIO', 'VIA_PUBLICA', 'OUTROS'
+    ],
+    'diffCity': False,
+    'cor_pele': 'I'
+}
 def update_brazil():
-    state_codes = pd.read_csv(BRAZIL_STATES_URL)
+    # TODO: cities!
+    state_codes = pd.read_csv(BR_STATES_URL)
     state_codes = state_codes.set_index('subdivision')
 
-    df = do_download_brazil(BRAZIL_URL, ['state'])
-    df.columns = ['adm1_name', 'date', 'deaths']
+    session = requests.session()
+
+    session_headers = perkins.DEFAULT_HEADERS.copy()
+    session.get(
+        BR_BASE_URL,
+        headers=session_headers,
+        timeout=30,
+        verify=False,
+    )
+
+    if 'XSRF-TOKEN' in session.cookies:
+        session_headers['XSRF-TOKEN'] = session.cookies['XSRF-TOKEN']
+
+    df = None
+    for state in BR_STATES:
+        states_params = BR_STATES_PARAMS.copy()
+        states_params['state'] = state
+
+        req = session.get(
+            BR_STATES_FETCH_URL,
+            params=states_params,
+            headers=session_headers,
+            timeout=30,
+            verify=False,
+        )
+        reqj = req.json()
+
+        if 'chart' not in reqj:
+            continue
+
+        data = pd.DataFrame.from_dict(reqj['chart'])
+        data = data.applymap(
+            lambda _: _[0]['total'] if type(_) == list else _
+        ).T
+        data.index = pd.to_datetime(data.index)
+
+        data = data.sum(axis=1)
+        data = data.reset_index()
+        data.columns = ['date', 'deaths']
+        data['adm1_name'] = state
+
+        df = pd.concat([df, data])
+        time.sleep(1.)
 
     df['adm1_name'] = df['adm1_name'].map(
         state_codes['name'].to_dict()
@@ -283,27 +328,8 @@ def update_brazil():
     )
     df_deaths = df_deaths[DF_ADM1_COLS]
 
-    df = do_download_brazil(BRAZIL_CITIES_URL, ['state', 'city'])
-    df.columns = ['adm1_name', 'adm2_name', 'date', 'deaths']
-
-    df['adm1_name'] = df['adm1_name'].map(
-        state_codes['name'].to_dict()
-    )
-
-    df = df.set_index(['adm1_name', 'adm2_name', 'date'])
-    df = df.sort_index()
-
-    df_cities = storage_format(
-        df,
-        iso_code='BR',
-        frequency='daily',
-        country_name='Brazil'
-    )
-    df_cities = df_cities[DF_ADM2_COLS]
-
     return {
         'south.america.subnational.mortality': df_deaths,
-        'south.america.cities.mortality': df_cities
     }
 
 
@@ -399,10 +425,9 @@ def update_ecuador():
     cities = sa_cities[sa_cities['name_0'] == 'Ecuador']['name_2']
     cities = pd.concat([cities, cities.apply(unidecode.unidecode)]).drop_duplicates()
 
-    df_cities = df.set_index(['adm1_name', 'adm2_name'])
-    df_cities = df_cities.loc[pd.IndexSlice[:, cities], :]
+    df_cities = df.set_index(['adm1_name', 'adm2_name', 'date'])
+    df_cities = df_cities.reindex(cities.unique(), level='adm2_name').dropna()
 
-    df_cities = df_cities.set_index('date', append=True)
     df_cities = df_cities.sort_index()
     df_cities = storage_format(
         df_cities,
@@ -564,10 +589,9 @@ def update_peru():
 
     df['adm2_name'] = df['adm2_name'].str.lower().str.title()
 
-    df_cities = df.set_index(['adm1_name', 'adm2_name'])
-    df_cities = df_cities.loc[pd.IndexSlice[:, cities], :]
+    df_cities = df.set_index(['adm1_name', 'adm2_name', 'date'])
+    df_cities = df_cities.reindex(cities.unique(), level='adm2_name').dropna()
 
-    df_cities = df_cities.set_index('date', append=True)
     df_cities = df_cities.sort_index()
     df_cities = storage_format(
         df_cities,
@@ -711,7 +735,7 @@ def update_paraguay():
     cities = pd.concat([cities, cities.apply(unidecode.unidecode)]).drop_duplicates()
 
     df_cities = df.set_index(['adm1_name', 'adm2_name'])
-    df_cities = df_cities.loc[pd.IndexSlice[:, cities], :]
+    df_cities = df_cities.reindex(cities.unique(), level='adm2_name').dropna()
 
     df_cities = df_cities.set_index('date', append=True)
     df_cities = df_cities.sort_index()
