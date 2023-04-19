@@ -734,10 +734,9 @@ def update_paraguay():
     cities = sa_cities[sa_cities['name_0'] == 'Paraguay']['name_2']
     cities = pd.concat([cities, cities.apply(unidecode.unidecode)]).drop_duplicates()
 
-    df_cities = df.set_index(['adm1_name', 'adm2_name'])
+    df_cities = df.set_index(['adm1_name', 'adm2_name', 'date'])
     df_cities = df_cities.reindex(cities.unique(), level='adm2_name').dropna()
 
-    df_cities = df_cities.set_index('date', append=True)
     df_cities = df_cities.sort_index()
     df_cities = storage_format(
         df_cities,
