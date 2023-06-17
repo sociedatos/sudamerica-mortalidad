@@ -137,9 +137,16 @@ CHL_ADM1_MAP = {
     'Aisén del Gral. C. Ibáñez del Campo': 'Aisen'
 }
 def update_chile():
-    req = requests.get(CHILE_BASE_URL, params=CHILE_INDEX_PARAMS)
+    req = requests.get(
+        CHILE_BASE_URL,
+        params=CHILE_INDEX_PARAMS,
+        headers=perkins.DEFAULT_HEADERS
+    )
     def_file = next(
-        _['value'] for _ in req.json() if _['value']['tags'] == 'defunciones'
+        _['value'] for _ in req.json() if (
+            (_['value']['tags'] == 'defunciones') and
+            ('semanal' in _['value']['nombre'].lower())
+        )
     )
 
     req = perkins.requests.do_request(def_file['ver'], max_retry=10)
@@ -291,7 +298,7 @@ def update_brazil():
             BR_STATES_FETCH_URL,
             params=states_params,
             headers=session_headers,
-            timeout=30,
+            timeout=90,
             verify=False,
         )
         reqj = req.json()
@@ -391,7 +398,8 @@ def update_ecuador():
     df.columns = [_.lower().replace(' ', '_') for _ in df_columns]
     df = df.iloc[1:]
 
-    df = df.drop(['zona', 'mes_def', 'dia_def'], axis=1)
+    df = df[df['zona'] != 'ND']
+    df = df.drop(['zona', 'mes', 'dia'], axis=1)
     df.iloc[:, :3] = df.iloc[:, :3].applymap(do_title)
 
     df['provincia_defuncion'] = df['provincia_defuncion'].replace(ECU_PROVINCIAS_MAP)
