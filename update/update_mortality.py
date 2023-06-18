@@ -402,8 +402,8 @@ def update_ecuador():
     df = df.drop(['zona', 'mes', 'dia'], axis=1)
     df.iloc[:, :3] = df.iloc[:, :3].applymap(do_title)
 
-    df['provincia_defuncion'] = df['provincia_defuncion'].replace(ECU_PROVINCIAS_MAP)
-    df['canton_defuncion'] = df['canton_defuncion'].replace(ECU_CANTONES_MAP)
+    df['provincia'] = df['provincia'].replace(ECU_PROVINCIAS_MAP)
+    df['canton'] = df['canton'].replace(ECU_CANTONES_MAP)
 
     if df['fecha_defuncion'].dtype == np.int64:
         df_td = df['fecha_defuncion'].apply(
@@ -412,8 +412,8 @@ def update_ecuador():
         df['fecha_defuncion'] = pd.to_datetime('1899/12/30') + df_td
 
     df = df.groupby([
-        'provincia_defuncion', 'canton_defuncion', 'fecha_defuncion'
-    ])['parroquia_defuncion'].count()
+        'provincia', 'canton', 'fecha_defuncion'
+    ])['parroquia'].count()
 
     df = df.reset_index()
     df.columns = ['adm1_name', 'adm2_name', 'date', 'deaths']
