@@ -713,8 +713,9 @@ def do_download_paraguay(dept_code, year=2021):
 
 def update_paraguay():
     df = pd.DataFrame([])
+    current_year = pd.to_datetime('now').year
 
-    for year in [2022, 2023]:
+    for year in np.arange(current_year - 1, current_year + 1):
         for dept_code, adm1_name in PARAGUAY_DEPTS.items():
             try:
                 dept_df = do_download_paraguay(dept_code, year=year)
