@@ -354,7 +354,7 @@ ECU_CANTONES_MAP = {
     'Rio Verde': 'Rioverde',
     'Yaguachi': 'San Jacinto de Yaguachi'
 }
-ECUADOR_URL = 'https://www.registrocivil.gob.ec/registro-civil-cifras-defunciones-2/'
+ECUADOR_URL = 'https://www.registrocivil.gob.ec/registro-civil-del-ecuador-cifras-de-defunciones/'
 def update_ecuador():
     cdata = requests.get(
         ECUADOR_URL,
@@ -406,6 +406,9 @@ def update_ecuador():
 
     df['provincia'] = df['provincia'].replace(ECU_PROVINCIAS_MAP)
     df['canton'] = df['canton'].replace(ECU_CANTONES_MAP)
+
+    if df['fecha_defuncion'].dtype == object:
+        df['fecha_defuncion'] = df['fecha_defuncion'].astype(np.int64)
 
     if df['fecha_defuncion'].dtype == np.int64:
         df_td = df['fecha_defuncion'].apply(
@@ -836,13 +839,13 @@ def do_merge(df, path):
 
 
 UPDATE_FNS = [
-    update_chile,
-    update_brazil,
+    # update_chile,
+    # update_brazil,
     update_ecuador,
-    update_colombia,
-    update_peru,
-    update_paraguay,
-    update_bolivia
+    # update_colombia,
+    # update_peru,
+    # update_paraguay,
+    # update_bolivia
 ]
 if __name__ == '__main__':
     iso_level_0, iso_geo_names, geo_names = perkins.fetch_geocodes()
