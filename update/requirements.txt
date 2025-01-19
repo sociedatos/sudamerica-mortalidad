@@ -8,6 +8,7 @@ numexpr
 bottleneck
 xlrd
 openpyxl
+pyxlsb
 pandas
 html5lib
 uuid

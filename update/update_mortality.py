@@ -122,7 +122,7 @@ def storage_format(df, iso_code=None, **kwargs):
     return df
 
 
-CHILE_BASE_URL = 'https://deis.minsal.cl/wp-admin/admin-ajax.php'
+CHILE_BASE_URL = 'https://deis.minsal.cl/deisajax'
 CHILE_INDEX_PARAMS = {
     'action': 'wp_ajax_ninja_tables_public_action',
     'table_id': '2889',
@@ -385,6 +385,8 @@ def update_ecuador():
         )
     ):
         dept_engine = 'openpyxl'
+    elif download_url.endswith('xlsb'):
+        dept_engine = 'pyxlsb'
 
     df = pd.read_excel(cdata.content, engine=dept_engine, header=None)
     df = df[~df.isna().all(axis=1)]
@@ -559,7 +561,7 @@ def update_peru():
     cdata = requests.get(PERU_URL, headers=perkins.DEFAULT_HEADERS)
     with py7zr.SevenZipFile(io.BytesIO(cdata.content), mode='r') as archive:
         archive_data = archive.readall()
-        df = pd.read_csv([*archive_data.values()][0], encoding='utf-8')
+        df = pd.read_csv([*archive_data.values()][0], encoding='utf-8', sep=';')
 
     df['FECHA'] = pd.to_datetime(df['FECHA'], dayfirst=True)
     df = df.sort_values('FECHA')
@@ -635,7 +637,7 @@ PARAGUAY_DEPTS = {
   '17': 'Alto Paraguay',
   '18': 'Asunción'
 }
-PARAGUAY_URL = 'http://ssiev.mspbs.gov.py/20220618/defuncion_reportes/lista_multireporte_defuncion.php'
+PARAGUAY_URL = 'https://ssiev.mspbs.gov.py/20220618/defuncion_reportes/lista_multireporte_defuncion.php'
 PARAGUAY_DATA = {
     'elegido': 2,
     'xfila': 'coddist',
