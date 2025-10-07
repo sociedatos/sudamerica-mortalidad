@@ -356,11 +356,15 @@ ECU_CANTONES_MAP = {
 }
 ECUADOR_URL = 'https://www.registrocivil.gob.ec/registro-civil-del-ecuador-cifras-de-defunciones/'
 def update_ecuador():
-    cdata = requests.get(
+    # proxy = perkins.requests.setup_proxy(ECUADOR_URL, country='Ecuador')
+    proxy = None
+
+    cdata = perkins.requests.do_request(
         ECUADOR_URL,
         verify=False,
+        timeout=60,
         headers=perkins.DEFAULT_HEADERS,
-        timeout=120
+        proxies=proxy,
     )
     cdata = BeautifulSoup(cdata.text, 'html.parser')
 
@@ -372,8 +376,9 @@ def update_ecuador():
     cdata = perkins.requests.do_request(
         download_url,
         verify=False,
+        timeout=60,
         headers=perkins.DEFAULT_HEADERS,
-        timeout=30
+        proxies=proxy,
     )
 
     dept_engine = 'xlrd'
@@ -407,8 +412,18 @@ def update_ecuador():
     df['provincia'] = df['provincia'].replace(ECU_PROVINCIAS_MAP)
     df['canton'] = df['canton'].replace(ECU_CANTONES_MAP)
 
-    if df['fecha_defuncion'].dtype == object:
-        df['fecha_defuncion'] = df['fecha_defuncion'].astype(np.int64)
+    if (df['fecha_defuncion'].dtype == object):
+        if (
+            (df['fecha_defuncion'].str.contains('-').sum() / df.shape[0] > .9) or
+            (df['fecha_defuncion'].str.contains('/').sum() / df.shape[0] > .9)
+        ):
+            df['fecha_defuncion'] = pd.to_datetime(df['fecha_defuncion'])
+        else:
+            fd_t = df['fecha_defuncion'].apply(type)
+            if (fd_t == int).sum() / len(fd_t) > .9:
+                df = df[fd_t == int]
+
+            df['fecha_defuncion'] = df['fecha_defuncion'].astype(np.int64)
 
     if df['fecha_defuncion'].dtype == np.int64:
         df_td = df['fecha_defuncion'].apply(
@@ -416,6 +431,7 @@ def update_ecuador():
         )
         df['fecha_defuncion'] = pd.to_datetime('1899/12/30') + df_td
 
+    df = df[df['fecha_defuncion'] >= '2025-01-01']
     df = df.groupby([
         'provincia', 'canton', 'fecha_defuncion'
     ])['parroquia'].count()
@@ -767,12 +783,27 @@ def update_paraguay():
 
 
 BOLIVIA_URL = 'https://raw.githubusercontent.com/sociedatos/bo-mortalidad/main/registro.civil.csv'
+BOLIVIA_LOC_MAP = {
+    '1': 'Chuquisaca',
+    '2': 'La Paz',
+    '3': 'Cochabamba',
+    '4': 'Oruro',
+    '5': 'Potosi',
+    '6': 'Tarija',
+    '7': 'Santa Cruz',
+    '8': 'El Beni',
+    '9': 'Pando'
+}
 def update_bolivia():
-    df = pd.read_csv(BOLIVIA_URL, index_col=0)
+    df = pd.read_csv(BOLIVIA_URL)
 
-    df.index = pd.to_datetime(df.index)
-    df = df.unstack().reset_index()
+    df['fecha'] = pd.to_datetime(df['fecha'])
+    df = df.groupby([
+        df['cod_ine'].astype(str).str[0], 'fecha'
+    ])['decesos'].sum().reset_index()
     df.columns = ['adm1_name', 'date', 'deaths']
+
+    df['adm1_name'] = df['adm1_name'].replace(BOLIVIA_LOC_MAP)
 
     df = df.set_index(['adm1_name', 'date'])
     df = df.sort_index()
@@ -839,12 +870,12 @@ def do_merge(df, path):
 
 
 UPDATE_FNS = [
-    update_chile,
-    update_brazil,
-    update_ecuador,
-    update_colombia,
-    update_peru,
-    update_paraguay,
+    # update_chile,
+    # update_brazil,
+    # update_ecuador,
+    # update_colombia,
+    # update_peru,
+    # update_paraguay,
     update_bolivia
 ]
 if __name__ == '__main__':

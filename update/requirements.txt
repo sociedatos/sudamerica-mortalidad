@@ -12,6 +12,6 @@ pyxlsb
 pandas
 html5lib
 uuid
-py7zr
+py7zr==0.22.0
 chardet
 git+https://github.com/sociedatos/perkins@main#perkins
