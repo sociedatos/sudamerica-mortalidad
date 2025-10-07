@@ -185,6 +185,9 @@ def update_chile():
     )
 
     chile_df.columns = meta_df['nombre_de_la_variable'].str.lower().values
+    if chile_df.iloc[0, 0].lower() == 'AÑO'.lower():
+        chile_df = chile_df.iloc[1:]
+
     chile_df['fecha_def'] = pd.to_datetime(chile_df['fecha_def'])
 
     chile_df = chile_df.sort_values('fecha_def')
@@ -575,25 +578,23 @@ def update_colombia():
     }
 
 
-PERU_URL = 'https://cloud.minsa.gob.pe/s/g9KdDRtek42X3pg/download'
+PERU_URL = 'https://files.minsa.gob.pe/s/Ae52gBAMf9aKEzK/download/SINADEF_DATOS_ABIERTOS.csv'
 def update_peru():
     cdata = requests.get(PERU_URL, headers=perkins.DEFAULT_HEADERS)
-    with py7zr.SevenZipFile(io.BytesIO(cdata.content), mode='r') as archive:
-        archive_data = archive.readall()
-        df = pd.read_csv([*archive_data.values()][0], encoding='utf-8', sep=';')
+    df = pd.read_csv(io.BytesIO(cdata.content), encoding='utf-8', on_bad_lines='skip')
 
     df['FECHA'] = pd.to_datetime(df['FECHA'], dayfirst=True)
     df = df.sort_values('FECHA')
 
-    df = df[df['PAIS DOMICILIO'] == 'PERU']
+    df = df[df['PAIS_DOMICILIO'] == 'PERU']
 
-    df['DEPARTAMENTO DOMICILIO'] = df['DEPARTAMENTO DOMICILIO'].str.strip()
-    df = df[df['DEPARTAMENTO DOMICILIO'].astype(bool)]
-    df['PROVINCIA DOMICILIO'] = df['PROVINCIA DOMICILIO'].str.strip()
-    df = df[df['PROVINCIA DOMICILIO'].astype(bool)]
+    df['DEPARTAMENTO_DOMICILIO'] = df['DEPARTAMENTO_DOMICILIO'].str.strip()
+    df = df[df['DEPARTAMENTO_DOMICILIO'].astype(bool)]
+    df['PROVINCIA_DOMICILIO'] = df['PROVINCIA_DOMICILIO'].str.strip()
+    df = df[df['PROVINCIA_DOMICILIO'].astype(bool)]
 
     df = df.groupby([
-        'DEPARTAMENTO DOMICILIO', 'PROVINCIA DOMICILIO', 'FECHA'
+        'DEPARTAMENTO_DOMICILIO', 'PROVINCIA_DOMICILIO', 'FECHA'
     ])[df.columns[0]].count().reset_index()
     df.columns = ['adm1_name', 'adm2_name', 'date', 'deaths']
 
@@ -870,12 +871,12 @@ def do_merge(df, path):
 
 
 UPDATE_FNS = [
-    # update_chile,
-    # update_brazil,
-    # update_ecuador,
-    # update_colombia,
-    # update_peru,
-    # update_paraguay,
+    update_chile,
+    update_brazil,
+    update_ecuador,
+    update_colombia,
+    update_peru,
+    update_paraguay,
     update_bolivia
 ]
 if __name__ == '__main__':
