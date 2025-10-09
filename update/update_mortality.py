@@ -167,9 +167,15 @@ def update_chile():
 
     # Process def file
     data_file = next(
-        (_ for _ in fzip.namelist() if _.endswith('csv')),
+        (_ for _ in fzip.namelist() if (_.endswith('csv'))),
         None
     )
+    if data_file is None:
+        data_file = next(
+            (_ for _ in fzip.namelist() if (_.endswith('txt'))),
+            None
+        )
+
     data_file = fzip.open(data_file)
 
     data_sample = data_file.read(4096)
