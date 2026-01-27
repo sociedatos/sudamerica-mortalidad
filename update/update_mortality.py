@@ -140,7 +140,8 @@ def update_chile():
     req = requests.get(
         CHILE_BASE_URL,
         params=CHILE_INDEX_PARAMS,
-        headers=perkins.DEFAULT_HEADERS
+        headers=perkins.DEFAULT_HEADERS,
+        verify=False
     )
     def_file = next(
         _['value'] for _ in req.json() if (
@@ -149,7 +150,7 @@ def update_chile():
         )
     )
 
-    req = perkins.requests.do_request(def_file['ver'], max_retry=10)
+    req = perkins.requests.do_request(def_file['ver'], max_retry=10, verify=False)
     fzip = ZipFile(io.BytesIO(req.content))
 
     # Process metadata
