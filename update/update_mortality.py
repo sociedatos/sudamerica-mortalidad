@@ -585,7 +585,7 @@ def update_colombia():
     }
 
 
-PERU_URL = 'https://files.minsa.gob.pe/s/Ae52gBAMf9aKEzK/download/SINADEF_DATOS_ABIERTOS.csv'
+PERU_URL = 'https://files.minsa.gob.pe/s/a6Hmynsenb7Px2y/download?path=%2F&files=SINADEF_DATOS_ABIERTOS.csv'
 def update_peru():
     cdata = requests.get(PERU_URL, headers=perkins.DEFAULT_HEADERS)
     df = pd.read_csv(io.BytesIO(cdata.content), encoding='utf-8', on_bad_lines='skip')
@@ -664,7 +664,7 @@ PARAGUAY_DEPTS = {
   '17': 'Alto Paraguay',
   '18': 'Asunción'
 }
-PARAGUAY_URL = 'https://ssiev.mspbs.gov.py/20220618/defuncion_reportes/lista_multireporte_defuncion.php'
+PARAGUAY_URL = 'https://ssiev.mspbs.gov.py/defuncion_reportes/lista_multireporte_defuncion.php'
 PARAGUAY_DATA = {
     'elegido': 2,
     'xfila': 'coddist',
