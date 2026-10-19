@@ -534653,7 +534653,10 @@ CL,Chile,CL-AI,Aisen,Coyhaique,daily,2026-09-27,1
 CL,Chile,CL-AI,Aisen,Coyhaique,daily,2026-09-28,1
 CL,Chile,CL-AI,Aisen,Coyhaique,daily,2026-09-29,2
 CL,Chile,CL-AI,Aisen,Coyhaique,daily,2026-09-30,1
-CL,Chile,CL-AI,Aisen,Coyhaique,daily,2026-10-01,2
+CL,Chile,CL-AI,Aisen,Coyhaique,daily,2026-10-01,3
+CL,Chile,CL-AI,Aisen,Coyhaique,daily,2026-10-04,1
+CL,Chile,CL-AI,Aisen,Coyhaique,daily,2026-10-07,1
+CL,Chile,CL-AI,Aisen,Coyhaique,daily,2026-10-08,2
 CL,Chile,CL-AN,Antofagasta,Antofagasta,daily,1990-01-01,5
 CL,Chile,CL-AN,Antofagasta,Antofagasta,daily,1990-01-02,4
 CL,Chile,CL-AN,Antofagasta,Antofagasta,daily,1990-01-03,5
@@ -547946,7 +547949,14 @@ CL,Chile,CL-AN,Antofagasta,Antofagasta,daily,2026-09-28,4
 CL,Chile,CL-AN,Antofagasta,Antofagasta,daily,2026-09-29,5
 CL,Chile,CL-AN,Antofagasta,Antofagasta,daily,2026-09-30,4
 CL,Chile,CL-AN,Antofagasta,Antofagasta,daily,2026-10-01,3
-CL,Chile,CL-AN,Antofagasta,Antofagasta,daily,2026-10-02,2
+CL,Chile,CL-AN,Antofagasta,Antofagasta,daily,2026-10-02,6
+CL,Chile,CL-AN,Antofagasta,Antofagasta,daily,2026-10-03,8
+CL,Chile,CL-AN,Antofagasta,Antofagasta,daily,2026-10-04,8
+CL,Chile,CL-AN,Antofagasta,Antofagasta,daily,2026-10-05,7
+CL,Chile,CL-AN,Antofagasta,Antofagasta,daily,2026-10-06,6
+CL,Chile,CL-AN,Antofagasta,Antofagasta,daily,2026-10-07,5
+CL,Chile,CL-AN,Antofagasta,Antofagasta,daily,2026-10-08,5
+CL,Chile,CL-AN,Antofagasta,Antofagasta,daily,2026-10-09,3
 CL,Chile,CL-AN,Antofagasta,El Loa,daily,1990-01-01,3
 CL,Chile,CL-AN,Antofagasta,El Loa,daily,1990-01-03,4
 CL,Chile,CL-AN,Antofagasta,El Loa,daily,1990-01-04,2
@@ -558838,7 +558848,7 @@ CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-09-15,1
 CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-09-16,5
 CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-09-17,4
 CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-09-18,4
-CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-09-19,3
+CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-09-19,4
 CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-09-20,5
 CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-09-21,4
 CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-09-22,3
@@ -558850,7 +558860,12 @@ CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-09-27,2
 CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-09-28,3
 CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-09-30,2
 CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-10-01,2
-CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-10-02,1
+CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-10-02,2
+CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-10-03,2
+CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-10-04,5
+CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-10-06,3
+CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-10-07,4
+CL,Chile,CL-AN,Antofagasta,El Loa,daily,2026-10-08,3
 CL,Chile,CL-AR,Araucania,Cautín,daily,1990-01-01,21
 CL,Chile,CL-AR,Araucania,Cautín,daily,1990-01-02,14
 CL,Chile,CL-AR,Araucania,Cautín,daily,1990-01-03,16
@@ -572253,7 +572268,7 @@ CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-07,15
 CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-08,15
 CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-09,14
 CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-10,18
-CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-11,22
+CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-11,23
 CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-12,18
 CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-13,25
 CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-14,19
@@ -572267,14 +572282,21 @@ CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-21,25
 CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-22,14
 CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-23,23
 CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-24,11
-CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-25,8
+CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-25,10
 CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-26,18
-CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-27,10
+CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-27,11
 CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-28,12
-CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-29,17
-CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-30,16
-CL,Chile,CL-AR,Araucania,Cautín,daily,2026-10-01,19
-CL,Chile,CL-AR,Araucania,Cautín,daily,2026-10-02,4
+CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-29,19
+CL,Chile,CL-AR,Araucania,Cautín,daily,2026-09-30,20
+CL,Chile,CL-AR,Araucania,Cautín,daily,2026-10-01,21
+CL,Chile,CL-AR,Araucania,Cautín,daily,2026-10-02,13
+CL,Chile,CL-AR,Araucania,Cautín,daily,2026-10-03,18
+CL,Chile,CL-AR,Araucania,Cautín,daily,2026-10-04,14
+CL,Chile,CL-AR,Araucania,Cautín,daily,2026-10-05,10
+CL,Chile,CL-AR,Araucania,Cautín,daily,2026-10-06,14
+CL,Chile,CL-AR,Araucania,Cautín,daily,2026-10-07,15
+CL,Chile,CL-AR,Araucania,Cautín,daily,2026-10-08,10
+CL,Chile,CL-AR,Araucania,Cautín,daily,2026-10-09,4
 CL,Chile,CL-AR,Araucania,Malleco,daily,1990-01-01,7
 CL,Chile,CL-AR,Araucania,Malleco,daily,1990-01-02,5
 CL,Chile,CL-AR,Araucania,Malleco,daily,1990-01-03,4
@@ -585429,14 +585451,21 @@ CL,Chile,CL-AR,Araucania,Malleco,daily,2026-09-21,3
 CL,Chile,CL-AR,Araucania,Malleco,daily,2026-09-22,5
 CL,Chile,CL-AR,Araucania,Malleco,daily,2026-09-23,5
 CL,Chile,CL-AR,Araucania,Malleco,daily,2026-09-24,6
-CL,Chile,CL-AR,Araucania,Malleco,daily,2026-09-25,5
-CL,Chile,CL-AR,Araucania,Malleco,daily,2026-09-26,6
-CL,Chile,CL-AR,Araucania,Malleco,daily,2026-09-27,5
+CL,Chile,CL-AR,Araucania,Malleco,daily,2026-09-25,6
+CL,Chile,CL-AR,Araucania,Malleco,daily,2026-09-26,7
+CL,Chile,CL-AR,Araucania,Malleco,daily,2026-09-27,6
 CL,Chile,CL-AR,Araucania,Malleco,daily,2026-09-28,6
-CL,Chile,CL-AR,Araucania,Malleco,daily,2026-09-29,4
-CL,Chile,CL-AR,Araucania,Malleco,daily,2026-09-30,6
-CL,Chile,CL-AR,Araucania,Malleco,daily,2026-10-01,3
-CL,Chile,CL-AR,Araucania,Malleco,daily,2026-10-02,2
+CL,Chile,CL-AR,Araucania,Malleco,daily,2026-09-29,5
+CL,Chile,CL-AR,Araucania,Malleco,daily,2026-09-30,7
+CL,Chile,CL-AR,Araucania,Malleco,daily,2026-10-01,4
+CL,Chile,CL-AR,Araucania,Malleco,daily,2026-10-02,4
+CL,Chile,CL-AR,Araucania,Malleco,daily,2026-10-03,3
+CL,Chile,CL-AR,Araucania,Malleco,daily,2026-10-04,5
+CL,Chile,CL-AR,Araucania,Malleco,daily,2026-10-05,8
+CL,Chile,CL-AR,Araucania,Malleco,daily,2026-10-06,7
+CL,Chile,CL-AR,Araucania,Malleco,daily,2026-10-07,5
+CL,Chile,CL-AR,Araucania,Malleco,daily,2026-10-08,1
+CL,Chile,CL-AR,Araucania,Malleco,daily,2026-10-09,1
 CL,Chile,CL-AP,Arica y Parinacota,Arica,daily,1990-01-01,1
 CL,Chile,CL-AP,Arica y Parinacota,Arica,daily,1990-01-02,1
 CL,Chile,CL-AP,Arica y Parinacota,Arica,daily,1990-01-04,2
@@ -597968,6 +597997,14 @@ CL,Chile,CL-AP,Arica y Parinacota,Arica,daily,2026-09-27,7
 CL,Chile,CL-AP,Arica y Parinacota,Arica,daily,2026-09-28,1
 CL,Chile,CL-AP,Arica y Parinacota,Arica,daily,2026-09-29,1
 CL,Chile,CL-AP,Arica y Parinacota,Arica,daily,2026-09-30,3
+CL,Chile,CL-AP,Arica y Parinacota,Arica,daily,2026-10-02,5
+CL,Chile,CL-AP,Arica y Parinacota,Arica,daily,2026-10-03,3
+CL,Chile,CL-AP,Arica y Parinacota,Arica,daily,2026-10-04,2
+CL,Chile,CL-AP,Arica y Parinacota,Arica,daily,2026-10-05,3
+CL,Chile,CL-AP,Arica y Parinacota,Arica,daily,2026-10-06,6
+CL,Chile,CL-AP,Arica y Parinacota,Arica,daily,2026-10-07,2
+CL,Chile,CL-AP,Arica y Parinacota,Arica,daily,2026-10-08,4
+CL,Chile,CL-AP,Arica y Parinacota,Arica,daily,2026-10-09,1
 CL,Chile,CL-AT,Atacama,Copiapó,daily,1990-01-01,2
 CL,Chile,CL-AT,Atacama,Copiapó,daily,1990-01-02,2
 CL,Chile,CL-AT,Atacama,Copiapó,daily,1990-01-03,3
@@ -609684,12 +609721,19 @@ CL,Chile,CL-AT,Atacama,Copiapó,daily,2026-09-21,2
 CL,Chile,CL-AT,Atacama,Copiapó,daily,2026-09-22,1
 CL,Chile,CL-AT,Atacama,Copiapó,daily,2026-09-23,3
 CL,Chile,CL-AT,Atacama,Copiapó,daily,2026-09-24,4
-CL,Chile,CL-AT,Atacama,Copiapó,daily,2026-09-25,3
+CL,Chile,CL-AT,Atacama,Copiapó,daily,2026-09-25,4
 CL,Chile,CL-AT,Atacama,Copiapó,daily,2026-09-27,1
 CL,Chile,CL-AT,Atacama,Copiapó,daily,2026-09-28,5
 CL,Chile,CL-AT,Atacama,Copiapó,daily,2026-09-29,4
 CL,Chile,CL-AT,Atacama,Copiapó,daily,2026-09-30,2
 CL,Chile,CL-AT,Atacama,Copiapó,daily,2026-10-01,2
+CL,Chile,CL-AT,Atacama,Copiapó,daily,2026-10-02,2
+CL,Chile,CL-AT,Atacama,Copiapó,daily,2026-10-03,3
+CL,Chile,CL-AT,Atacama,Copiapó,daily,2026-10-04,4
+CL,Chile,CL-AT,Atacama,Copiapó,daily,2026-10-05,7
+CL,Chile,CL-AT,Atacama,Copiapó,daily,2026-10-06,1
+CL,Chile,CL-AT,Atacama,Copiapó,daily,2026-10-07,2
+CL,Chile,CL-AT,Atacama,Copiapó,daily,2026-10-08,2
 CL,Chile,CL-BI,Biobio,Arauco,daily,1990-01-01,8
 CL,Chile,CL-BI,Biobio,Arauco,daily,1990-01-03,5
 CL,Chile,CL-BI,Biobio,Arauco,daily,1990-01-04,3
@@ -622123,7 +622167,14 @@ CL,Chile,CL-BI,Biobio,Arauco,daily,2026-09-28,2
 CL,Chile,CL-BI,Biobio,Arauco,daily,2026-09-29,2
 CL,Chile,CL-BI,Biobio,Arauco,daily,2026-09-30,2
 CL,Chile,CL-BI,Biobio,Arauco,daily,2026-10-01,3
-CL,Chile,CL-BI,Biobio,Arauco,daily,2026-10-02,1
+CL,Chile,CL-BI,Biobio,Arauco,daily,2026-10-02,2
+CL,Chile,CL-BI,Biobio,Arauco,daily,2026-10-03,2
+CL,Chile,CL-BI,Biobio,Arauco,daily,2026-10-04,1
+CL,Chile,CL-BI,Biobio,Arauco,daily,2026-10-05,6
+CL,Chile,CL-BI,Biobio,Arauco,daily,2026-10-06,4
+CL,Chile,CL-BI,Biobio,Arauco,daily,2026-10-07,5
+CL,Chile,CL-BI,Biobio,Arauco,daily,2026-10-08,5
+CL,Chile,CL-BI,Biobio,Arauco,daily,2026-10-09,3
 CL,Chile,CL-BI,Biobio,Bío-Bío,daily,1990-01-01,9
 CL,Chile,CL-BI,Biobio,Bío-Bío,daily,1990-01-02,2
 CL,Chile,CL-BI,Biobio,Bío-Bío,daily,1990-01-03,8
@@ -635492,7 +635543,7 @@ CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-09-08,21
 CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-09-09,11
 CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-09-10,6
 CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-09-11,3
-CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-09-12,4
+CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-09-12,5
 CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-09-13,10
 CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-09-14,12
 CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-09-15,6
@@ -635509,10 +635560,17 @@ CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-09-25,15
 CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-09-26,6
 CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-09-27,4
 CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-09-28,10
-CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-09-29,3
-CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-09-30,7
-CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-10-01,5
-CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-10-02,1
+CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-09-29,4
+CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-09-30,9
+CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-10-01,6
+CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-10-02,4
+CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-10-03,13
+CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-10-04,8
+CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-10-05,7
+CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-10-06,17
+CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-10-07,10
+CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-10-08,8
+CL,Chile,CL-BI,Biobio,Bío-Bío,daily,2026-10-09,3
 CL,Chile,CL-BI,Biobio,Concepción,daily,1990-01-01,17
 CL,Chile,CL-BI,Biobio,Concepción,daily,1990-01-02,15
 CL,Chile,CL-BI,Biobio,Concepción,daily,1990-01-03,10
@@ -648932,11 +648990,18 @@ CL,Chile,CL-BI,Biobio,Concepción,daily,2026-09-24,24
 CL,Chile,CL-BI,Biobio,Concepción,daily,2026-09-25,26
 CL,Chile,CL-BI,Biobio,Concepción,daily,2026-09-26,22
 CL,Chile,CL-BI,Biobio,Concepción,daily,2026-09-27,22
-CL,Chile,CL-BI,Biobio,Concepción,daily,2026-09-28,11
+CL,Chile,CL-BI,Biobio,Concepción,daily,2026-09-28,12
 CL,Chile,CL-BI,Biobio,Concepción,daily,2026-09-29,20
-CL,Chile,CL-BI,Biobio,Concepción,daily,2026-09-30,13
-CL,Chile,CL-BI,Biobio,Concepción,daily,2026-10-01,24
-CL,Chile,CL-BI,Biobio,Concepción,daily,2026-10-02,11
+CL,Chile,CL-BI,Biobio,Concepción,daily,2026-09-30,14
+CL,Chile,CL-BI,Biobio,Concepción,daily,2026-10-01,25
+CL,Chile,CL-BI,Biobio,Concepción,daily,2026-10-02,24
+CL,Chile,CL-BI,Biobio,Concepción,daily,2026-10-03,13
+CL,Chile,CL-BI,Biobio,Concepción,daily,2026-10-04,20
+CL,Chile,CL-BI,Biobio,Concepción,daily,2026-10-05,23
+CL,Chile,CL-BI,Biobio,Concepción,daily,2026-10-06,13
+CL,Chile,CL-BI,Biobio,Concepción,daily,2026-10-07,23
+CL,Chile,CL-BI,Biobio,Concepción,daily,2026-10-08,18
+CL,Chile,CL-BI,Biobio,Concepción,daily,2026-10-09,9
 CL,Chile,CL-CO,Coquimbo,Elqui,daily,1990-01-01,5
 CL,Chile,CL-CO,Coquimbo,Elqui,daily,1990-01-02,6
 CL,Chile,CL-CO,Coquimbo,Elqui,daily,1990-01-03,7
@@ -662247,21 +662312,28 @@ CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-14,9
 CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-15,10
 CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-16,9
 CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-17,11
-CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-18,9
+CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-18,10
 CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-19,14
 CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-20,9
 CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-21,17
 CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-22,6
 CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-23,7
 CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-24,11
-CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-25,12
+CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-25,13
 CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-26,15
 CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-27,9
 CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-28,14
 CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-29,3
 CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-09-30,9
-CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-10-01,9
-CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-10-02,1
+CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-10-01,10
+CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-10-02,9
+CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-10-03,8
+CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-10-04,10
+CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-10-05,10
+CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-10-06,17
+CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-10-07,3
+CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-10-08,9
+CL,Chile,CL-CO,Coquimbo,Elqui,daily,2026-10-09,2
 CL,Chile,CL-CO,Coquimbo,Limarí,daily,1990-01-01,2
 CL,Chile,CL-CO,Coquimbo,Limarí,daily,1990-01-02,2
 CL,Chile,CL-CO,Coquimbo,Limarí,daily,1990-01-03,3
@@ -674668,6 +674740,14 @@ CL,Chile,CL-CO,Coquimbo,Limarí,daily,2026-09-28,2
 CL,Chile,CL-CO,Coquimbo,Limarí,daily,2026-09-29,4
 CL,Chile,CL-CO,Coquimbo,Limarí,daily,2026-09-30,7
 CL,Chile,CL-CO,Coquimbo,Limarí,daily,2026-10-01,5
+CL,Chile,CL-CO,Coquimbo,Limarí,daily,2026-10-02,2
+CL,Chile,CL-CO,Coquimbo,Limarí,daily,2026-10-03,1
+CL,Chile,CL-CO,Coquimbo,Limarí,daily,2026-10-04,5
+CL,Chile,CL-CO,Coquimbo,Limarí,daily,2026-10-05,4
+CL,Chile,CL-CO,Coquimbo,Limarí,daily,2026-10-06,4
+CL,Chile,CL-CO,Coquimbo,Limarí,daily,2026-10-07,3
+CL,Chile,CL-CO,Coquimbo,Limarí,daily,2026-10-08,4
+CL,Chile,CL-CO,Coquimbo,Limarí,daily,2026-10-09,1
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,1990-01-02,2
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,1990-01-03,1
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,1990-01-04,2
@@ -687177,22 +687257,30 @@ CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-11,4
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-13,4
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-14,3
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-15,2
-CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-16,6
+CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-16,7
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-17,8
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-18,6
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-19,3
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-20,5
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-21,2
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-22,6
-CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-23,3
+CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-23,4
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-24,2
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-25,1
-CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-26,6
+CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-26,7
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-27,4
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-28,5
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-29,4
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-09-30,5
 CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-10-01,3
+CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-10-02,3
+CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-10-03,5
+CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-10-04,1
+CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-10-05,4
+CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-10-06,3
+CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-10-07,4
+CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-10-08,2
+CL,Chile,CL-LL,Los Lagos,Chiloe,daily,2026-10-09,2
 CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,1990-01-01,5
 CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,1990-01-02,5
 CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,1990-01-03,2
@@ -700482,7 +700570,7 @@ CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-08-29,3
 CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-08-30,14
 CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-08-31,2
 CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-09-01,9
-CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-09-02,12
+CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-09-02,13
 CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-09-03,3
 CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-09-04,12
 CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-09-05,9
@@ -700510,9 +700598,16 @@ CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-09-26,5
 CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-09-27,4
 CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-09-28,4
 CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-09-29,7
-CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-09-30,7
+CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-09-30,8
 CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-10-01,6
-CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-10-02,4
+CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-10-02,10
+CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-10-03,6
+CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-10-04,9
+CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-10-05,6
+CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-10-06,10
+CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-10-07,6
+CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-10-08,7
+CL,Chile,CL-LL,Los Lagos,Llanquihue,daily,2026-10-09,1
 CL,Chile,CL-LL,Los Lagos,Osorno,daily,1990-01-01,9
 CL,Chile,CL-LL,Los Lagos,Osorno,daily,1990-01-02,2
 CL,Chile,CL-LL,Los Lagos,Osorno,daily,1990-01-03,5
@@ -713716,7 +713811,14 @@ CL,Chile,CL-LL,Los Lagos,Osorno,daily,2026-09-28,5
 CL,Chile,CL-LL,Los Lagos,Osorno,daily,2026-09-29,5
 CL,Chile,CL-LL,Los Lagos,Osorno,daily,2026-09-30,4
 CL,Chile,CL-LL,Los Lagos,Osorno,daily,2026-10-01,4
-CL,Chile,CL-LL,Los Lagos,Osorno,daily,2026-10-02,2
+CL,Chile,CL-LL,Los Lagos,Osorno,daily,2026-10-02,8
+CL,Chile,CL-LL,Los Lagos,Osorno,daily,2026-10-03,9
+CL,Chile,CL-LL,Los Lagos,Osorno,daily,2026-10-04,7
+CL,Chile,CL-LL,Los Lagos,Osorno,daily,2026-10-05,4
+CL,Chile,CL-LL,Los Lagos,Osorno,daily,2026-10-06,7
+CL,Chile,CL-LL,Los Lagos,Osorno,daily,2026-10-07,5
+CL,Chile,CL-LL,Los Lagos,Osorno,daily,2026-10-08,4
+CL,Chile,CL-LL,Los Lagos,Osorno,daily,2026-10-09,3
 CL,Chile,CL-LR,Los Rios,Ranco,daily,1990-01-01,4
 CL,Chile,CL-LR,Los Rios,Ranco,daily,1990-01-02,2
 CL,Chile,CL-LR,Los Rios,Ranco,daily,1990-01-03,1
@@ -725667,8 +725769,14 @@ CL,Chile,CL-LR,Los Rios,Ranco,daily,2026-09-26,5
 CL,Chile,CL-LR,Los Rios,Ranco,daily,2026-09-27,1
 CL,Chile,CL-LR,Los Rios,Ranco,daily,2026-09-28,1
 CL,Chile,CL-LR,Los Rios,Ranco,daily,2026-09-29,4
-CL,Chile,CL-LR,Los Rios,Ranco,daily,2026-09-30,3
+CL,Chile,CL-LR,Los Rios,Ranco,daily,2026-09-30,4
 CL,Chile,CL-LR,Los Rios,Ranco,daily,2026-10-02,2
+CL,Chile,CL-LR,Los Rios,Ranco,daily,2026-10-03,2
+CL,Chile,CL-LR,Los Rios,Ranco,daily,2026-10-04,3
+CL,Chile,CL-LR,Los Rios,Ranco,daily,2026-10-05,4
+CL,Chile,CL-LR,Los Rios,Ranco,daily,2026-10-06,1
+CL,Chile,CL-LR,Los Rios,Ranco,daily,2026-10-07,3
+CL,Chile,CL-LR,Los Rios,Ranco,daily,2026-10-08,4
 CL,Chile,CL-LR,Los Rios,Valdivia,daily,1990-01-01,2
 CL,Chile,CL-LR,Los Rios,Valdivia,daily,1990-01-02,2
 CL,Chile,CL-LR,Los Rios,Valdivia,daily,1990-01-03,2
@@ -738887,7 +738995,7 @@ CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-09-17,3
 CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-09-18,8
 CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-09-19,6
 CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-09-20,9
-CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-09-21,13
+CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-09-21,14
 CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-09-22,8
 CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-09-23,3
 CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-09-24,5
@@ -738898,7 +739006,13 @@ CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-09-28,2
 CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-09-29,4
 CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-09-30,2
 CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-10-01,8
-CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-10-02,1
+CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-10-02,3
+CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-10-03,13
+CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-10-04,2
+CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-10-05,4
+CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-10-06,6
+CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-10-07,3
+CL,Chile,CL-LR,Los Rios,Valdivia,daily,2026-10-08,8
 CL,Chile,CL-MA,Magallanes,Magallanes,daily,1990-01-01,4
 CL,Chile,CL-MA,Magallanes,Magallanes,daily,1990-01-04,5
 CL,Chile,CL-MA,Magallanes,Magallanes,daily,1990-01-05,1
@@ -750768,7 +750882,13 @@ CL,Chile,CL-MA,Magallanes,Magallanes,daily,2026-09-26,5
 CL,Chile,CL-MA,Magallanes,Magallanes,daily,2026-09-27,3
 CL,Chile,CL-MA,Magallanes,Magallanes,daily,2026-09-30,1
 CL,Chile,CL-MA,Magallanes,Magallanes,daily,2026-10-01,2
-CL,Chile,CL-MA,Magallanes,Magallanes,daily,2026-10-02,1
+CL,Chile,CL-MA,Magallanes,Magallanes,daily,2026-10-02,4
+CL,Chile,CL-MA,Magallanes,Magallanes,daily,2026-10-03,2
+CL,Chile,CL-MA,Magallanes,Magallanes,daily,2026-10-04,6
+CL,Chile,CL-MA,Magallanes,Magallanes,daily,2026-10-06,6
+CL,Chile,CL-MA,Magallanes,Magallanes,daily,2026-10-07,2
+CL,Chile,CL-MA,Magallanes,Magallanes,daily,2026-10-08,4
+CL,Chile,CL-MA,Magallanes,Magallanes,daily,2026-10-09,2
 CL,Chile,CL-ML,Maule,Curicó,daily,1990-01-01,3
 CL,Chile,CL-ML,Maule,Curicó,daily,1990-01-02,2
 CL,Chile,CL-ML,Maule,Curicó,daily,1990-01-03,4
@@ -763996,14 +764116,21 @@ CL,Chile,CL-ML,Maule,Curicó,daily,2026-09-21,6
 CL,Chile,CL-ML,Maule,Curicó,daily,2026-09-22,7
 CL,Chile,CL-ML,Maule,Curicó,daily,2026-09-23,3
 CL,Chile,CL-ML,Maule,Curicó,daily,2026-09-24,7
-CL,Chile,CL-ML,Maule,Curicó,daily,2026-09-25,10
+CL,Chile,CL-ML,Maule,Curicó,daily,2026-09-25,11
 CL,Chile,CL-ML,Maule,Curicó,daily,2026-09-26,6
 CL,Chile,CL-ML,Maule,Curicó,daily,2026-09-27,3
 CL,Chile,CL-ML,Maule,Curicó,daily,2026-09-28,4
 CL,Chile,CL-ML,Maule,Curicó,daily,2026-09-29,4
 CL,Chile,CL-ML,Maule,Curicó,daily,2026-09-30,5
-CL,Chile,CL-ML,Maule,Curicó,daily,2026-10-01,5
-CL,Chile,CL-ML,Maule,Curicó,daily,2026-10-02,3
+CL,Chile,CL-ML,Maule,Curicó,daily,2026-10-01,6
+CL,Chile,CL-ML,Maule,Curicó,daily,2026-10-02,8
+CL,Chile,CL-ML,Maule,Curicó,daily,2026-10-03,11
+CL,Chile,CL-ML,Maule,Curicó,daily,2026-10-04,4
+CL,Chile,CL-ML,Maule,Curicó,daily,2026-10-05,8
+CL,Chile,CL-ML,Maule,Curicó,daily,2026-10-06,4
+CL,Chile,CL-ML,Maule,Curicó,daily,2026-10-07,6
+CL,Chile,CL-ML,Maule,Curicó,daily,2026-10-08,3
+CL,Chile,CL-ML,Maule,Curicó,daily,2026-10-09,1
 CL,Chile,CL-ML,Maule,Linares,daily,1990-01-01,6
 CL,Chile,CL-ML,Maule,Linares,daily,1990-01-02,5
 CL,Chile,CL-ML,Maule,Linares,daily,1990-01-03,4
@@ -777230,7 +777357,7 @@ CL,Chile,CL-ML,Maule,Linares,daily,2026-07-04,9
 CL,Chile,CL-ML,Maule,Linares,daily,2026-07-05,11
 CL,Chile,CL-ML,Maule,Linares,daily,2026-07-06,18
 CL,Chile,CL-ML,Maule,Linares,daily,2026-07-07,10
-CL,Chile,CL-ML,Maule,Linares,daily,2026-07-08,11
+CL,Chile,CL-ML,Maule,Linares,daily,2026-07-08,12
 CL,Chile,CL-ML,Maule,Linares,daily,2026-07-09,11
 CL,Chile,CL-ML,Maule,Linares,daily,2026-07-10,9
 CL,Chile,CL-ML,Maule,Linares,daily,2026-07-11,7
@@ -777309,14 +777436,21 @@ CL,Chile,CL-ML,Maule,Linares,daily,2026-09-21,5
 CL,Chile,CL-ML,Maule,Linares,daily,2026-09-22,7
 CL,Chile,CL-ML,Maule,Linares,daily,2026-09-23,9
 CL,Chile,CL-ML,Maule,Linares,daily,2026-09-24,8
-CL,Chile,CL-ML,Maule,Linares,daily,2026-09-25,3
+CL,Chile,CL-ML,Maule,Linares,daily,2026-09-25,4
 CL,Chile,CL-ML,Maule,Linares,daily,2026-09-26,11
 CL,Chile,CL-ML,Maule,Linares,daily,2026-09-27,8
 CL,Chile,CL-ML,Maule,Linares,daily,2026-09-28,11
 CL,Chile,CL-ML,Maule,Linares,daily,2026-09-29,5
 CL,Chile,CL-ML,Maule,Linares,daily,2026-09-30,10
-CL,Chile,CL-ML,Maule,Linares,daily,2026-10-01,13
-CL,Chile,CL-ML,Maule,Linares,daily,2026-10-02,2
+CL,Chile,CL-ML,Maule,Linares,daily,2026-10-01,15
+CL,Chile,CL-ML,Maule,Linares,daily,2026-10-02,7
+CL,Chile,CL-ML,Maule,Linares,daily,2026-10-03,3
+CL,Chile,CL-ML,Maule,Linares,daily,2026-10-04,8
+CL,Chile,CL-ML,Maule,Linares,daily,2026-10-05,4
+CL,Chile,CL-ML,Maule,Linares,daily,2026-10-06,6
+CL,Chile,CL-ML,Maule,Linares,daily,2026-10-07,7
+CL,Chile,CL-ML,Maule,Linares,daily,2026-10-08,4
+CL,Chile,CL-ML,Maule,Linares,daily,2026-10-09,2
 CL,Chile,CL-ML,Maule,Talca,daily,1990-01-01,6
 CL,Chile,CL-ML,Maule,Talca,daily,1990-01-02,5
 CL,Chile,CL-ML,Maule,Talca,daily,1990-01-03,4
@@ -790680,8 +790814,15 @@ CL,Chile,CL-ML,Maule,Talca,daily,2026-09-27,7
 CL,Chile,CL-ML,Maule,Talca,daily,2026-09-28,13
 CL,Chile,CL-ML,Maule,Talca,daily,2026-09-29,5
 CL,Chile,CL-ML,Maule,Talca,daily,2026-09-30,6
-CL,Chile,CL-ML,Maule,Talca,daily,2026-10-01,5
+CL,Chile,CL-ML,Maule,Talca,daily,2026-10-01,6
 CL,Chile,CL-ML,Maule,Talca,daily,2026-10-02,7
+CL,Chile,CL-ML,Maule,Talca,daily,2026-10-03,11
+CL,Chile,CL-ML,Maule,Talca,daily,2026-10-04,8
+CL,Chile,CL-ML,Maule,Talca,daily,2026-10-05,12
+CL,Chile,CL-ML,Maule,Talca,daily,2026-10-06,8
+CL,Chile,CL-ML,Maule,Talca,daily,2026-10-07,7
+CL,Chile,CL-ML,Maule,Talca,daily,2026-10-08,11
+CL,Chile,CL-ML,Maule,Talca,daily,2026-10-09,2
 CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,1990-01-01,5
 CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,1990-01-02,9
 CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,1990-01-03,4
@@ -804093,14 +804234,22 @@ CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-09-21,10
 CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-09-22,11
 CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-09-23,14
 CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-09-24,14
-CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-09-25,13
-CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-09-26,14
+CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-09-25,14
+CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-09-26,15
 CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-09-27,14
 CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-09-28,10
 CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-09-29,12
 CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-09-30,14
 CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-10-01,10
-CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-10-02,1
+CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-10-02,8
+CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-10-03,17
+CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-10-04,12
+CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-10-05,14
+CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-10-06,16
+CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-10-07,14
+CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-10-08,10
+CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-10-09,3
+CL,Chile,CL-LI,O'Higgins,Cachapoal,daily,2026-10-10,1
 CL,Chile,CL-LI,O'Higgins,Colchagua,daily,1990-01-01,4
 CL,Chile,CL-LI,O'Higgins,Colchagua,daily,1990-01-02,3
 CL,Chile,CL-LI,O'Higgins,Colchagua,daily,1990-01-03,1
@@ -817053,16 +817202,23 @@ CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-09-19,4
 CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-09-20,3
 CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-09-21,6
 CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-09-22,4
-CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-09-23,5
+CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-09-23,6
 CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-09-24,10
-CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-09-25,4
-CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-09-26,3
+CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-09-25,5
+CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-09-26,4
 CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-09-27,5
 CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-09-28,5
-CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-09-29,4
+CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-09-29,5
 CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-09-30,1
 CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-10-01,2
-CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-10-02,1
+CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-10-02,7
+CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-10-03,6
+CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-10-04,6
+CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-10-05,8
+CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-10-06,1
+CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-10-07,1
+CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-10-08,1
+CL,Chile,CL-LI,O'Higgins,Colchagua,daily,2026-10-09,1
 CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,1990-01-01,2
 CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,1990-01-02,3
 CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,1990-01-03,1
@@ -828196,11 +828352,20 @@ CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-09-24,4
 CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-09-25,2
 CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-09-26,7
 CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-09-27,6
-CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-09-28,5
-CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-09-29,1
-CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-09-30,3
+CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-09-28,6
+CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-09-29,2
+CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-09-30,4
 CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-10-01,3
-CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-10-02,5
+CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-10-02,6
+CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-10-03,4
+CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-10-04,5
+CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-10-05,2
+CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-10-06,4
+CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-10-07,4
+CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-10-08,4
+CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-10-09,6
+CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-10-10,8
+CL,Chile,CL-RM,Santiago Metropolitan,Chacabuco,daily,2026-10-11,1
 CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,1990-01-01,6
 CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,1990-01-03,2
 CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,1990-01-04,3
@@ -841437,13 +841602,21 @@ CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-09-23,15
 CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-09-24,9
 CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-09-25,6
 CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-09-26,13
-CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-09-27,8
+CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-09-27,10
 CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-09-28,5
 CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-09-29,6
 CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-09-30,9
 CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-10-01,6
-CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-10-02,4
-CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-10-03,2
+CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-10-02,8
+CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-10-03,9
+CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-10-04,9
+CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-10-05,4
+CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-10-06,9
+CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-10-07,10
+CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-10-08,8
+CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-10-09,10
+CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-10-10,7
+CL,Chile,CL-RM,Santiago Metropolitan,Cordillera,daily,2026-10-11,3
 CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,1990-01-01,6
 CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,1990-01-02,2
 CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,1990-01-03,6
@@ -854745,10 +854918,17 @@ CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,2026-09-26,8
 CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,2026-09-27,9
 CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,2026-09-28,7
 CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,2026-09-29,9
-CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,2026-09-30,7
+CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,2026-09-30,8
 CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,2026-10-01,12
-CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,2026-10-02,6
-CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,2026-10-03,2
+CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,2026-10-02,9
+CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,2026-10-03,10
+CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,2026-10-04,11
+CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,2026-10-05,7
+CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,2026-10-06,8
+CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,2026-10-07,13
+CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,2026-10-08,6
+CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,2026-10-09,6
+CL,Chile,CL-RM,Santiago Metropolitan,Maipo,daily,2026-10-10,7
 CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,1990-01-01,6
 CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,1990-01-02,4
 CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,1990-01-03,2
@@ -866865,13 +867045,20 @@ CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-09-21,4
 CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-09-22,1
 CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-09-23,1
 CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-09-24,4
-CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-09-25,5
+CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-09-25,6
 CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-09-26,5
 CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-09-27,6
 CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-09-28,3
 CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-09-29,5
-CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-09-30,2
+CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-09-30,3
 CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-10-01,2
+CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-10-02,5
+CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-10-04,4
+CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-10-05,5
+CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-10-06,2
+CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-10-07,2
+CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-10-08,5
+CL,Chile,CL-RM,Santiago Metropolitan,Melipilla,daily,2026-10-09,3
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,1990-01-01,65
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,1990-01-02,64
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,1990-01-03,53
@@ -880050,7 +880237,7 @@ CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-01-26,83
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-01-27,81
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-01-28,93
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-01-29,85
-CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-01-30,93
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-01-30,94
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-01-31,83
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-02-01,82
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-02-02,90
@@ -880100,7 +880287,7 @@ CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-03-17,83
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-03-18,97
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-03-19,104
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-03-20,62
-CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-03-21,86
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-03-21,87
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-03-22,66
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-03-23,96
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-03-24,102
@@ -880108,7 +880295,7 @@ CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-03-25,90
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-03-26,75
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-03-27,93
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-03-28,83
-CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-03-29,89
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-03-29,90
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-03-30,104
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-03-31,84
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-01,88
@@ -880117,20 +880304,20 @@ CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-03,87
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-04,101
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-05,95
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-06,86
-CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-07,93
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-07,94
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-08,94
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-09,92
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-10,83
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-11,114
-CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-12,86
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-12,87
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-13,100
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-14,91
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-15,75
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-16,99
-CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-17,98
-CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-18,90
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-17,99
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-18,91
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-19,94
-CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-20,76
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-20,77
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-21,78
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-22,81
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-04-23,97
@@ -880273,11 +880460,11 @@ CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-06,91
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-07,104
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-08,92
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-09,89
-CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-10,97
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-10,98
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-11,104
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-12,88
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-13,86
-CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-14,107
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-14,108
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-15,120
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-16,91
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-17,128
@@ -880289,14 +880476,22 @@ CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-22,100
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-23,99
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-24,89
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-25,78
-CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-26,120
-CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-27,91
-CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-28,96
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-26,123
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-27,94
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-28,97
 CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-29,76
-CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-30,112
-CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-10-01,99
-CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-10-02,92
-CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-10-03,19
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-09-30,114
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-10-01,101
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-10-02,113
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-10-03,92
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-10-04,86
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-10-05,88
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-10-06,96
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-10-07,85
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-10-08,92
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-10-09,100
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-10-10,79
+CL,Chile,CL-RM,Santiago Metropolitan,Santiago,daily,2026-10-11,12
 CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,1990-01-01,2
 CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,1990-01-02,3
 CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,1990-01-04,1
@@ -892972,10 +893167,17 @@ CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,2026-09-26,6
 CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,2026-09-27,3
 CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,2026-09-28,6
 CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,2026-09-29,6
-CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,2026-09-30,5
+CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,2026-09-30,6
 CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,2026-10-01,7
-CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,2026-10-02,6
-CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,2026-10-03,1
+CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,2026-10-02,7
+CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,2026-10-03,9
+CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,2026-10-04,3
+CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,2026-10-05,4
+CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,2026-10-06,2
+CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,2026-10-07,6
+CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,2026-10-08,5
+CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,2026-10-09,4
+CL,Chile,CL-RM,Santiago Metropolitan,Talagante,daily,2026-10-10,5
 CL,Chile,CL-TA,Tarapaca,Iquique,daily,1990-01-01,1
 CL,Chile,CL-TA,Tarapaca,Iquique,daily,1990-01-02,2
 CL,Chile,CL-TA,Tarapaca,Iquique,daily,1990-01-03,2
@@ -905721,13 +905923,18 @@ CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-09-23,7
 CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-09-24,2
 CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-09-25,4
 CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-09-26,4
-CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-09-27,1
+CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-09-27,2
 CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-09-28,2
 CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-09-29,4
-CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-09-30,2
-CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-10-01,2
-CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-10-02,1
-CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-10-03,1
+CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-09-30,4
+CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-10-01,3
+CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-10-02,4
+CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-10-03,6
+CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-10-04,5
+CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-10-05,7
+CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-10-06,3
+CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-10-07,9
+CL,Chile,CL-TA,Tarapaca,Iquique,daily,2026-10-08,4
 CL,Chile,CL-VS,Valparaiso,Los Andes,daily,1990-01-02,1
 CL,Chile,CL-VS,Valparaiso,Los Andes,daily,1990-01-04,1
 CL,Chile,CL-VS,Valparaiso,Los Andes,daily,1990-01-09,1
@@ -916015,10 +916222,18 @@ CL,Chile,CL-VS,Valparaiso,Los Andes,daily,2026-09-23,5
 CL,Chile,CL-VS,Valparaiso,Los Andes,daily,2026-09-24,4
 CL,Chile,CL-VS,Valparaiso,Los Andes,daily,2026-09-25,2
 CL,Chile,CL-VS,Valparaiso,Los Andes,daily,2026-09-27,2
-CL,Chile,CL-VS,Valparaiso,Los Andes,daily,2026-09-28,1
+CL,Chile,CL-VS,Valparaiso,Los Andes,daily,2026-09-28,2
 CL,Chile,CL-VS,Valparaiso,Los Andes,daily,2026-09-30,2
-CL,Chile,CL-VS,Valparaiso,Los Andes,daily,2026-10-01,2
+CL,Chile,CL-VS,Valparaiso,Los Andes,daily,2026-10-01,4
 CL,Chile,CL-VS,Valparaiso,Los Andes,daily,2026-10-02,1
+CL,Chile,CL-VS,Valparaiso,Los Andes,daily,2026-10-03,4
+CL,Chile,CL-VS,Valparaiso,Los Andes,daily,2026-10-04,4
+CL,Chile,CL-VS,Valparaiso,Los Andes,daily,2026-10-05,4
+CL,Chile,CL-VS,Valparaiso,Los Andes,daily,2026-10-06,2
+CL,Chile,CL-VS,Valparaiso,Los Andes,daily,2026-10-07,2
+CL,Chile,CL-VS,Valparaiso,Los Andes,daily,2026-10-08,3
+CL,Chile,CL-VS,Valparaiso,Los Andes,daily,2026-10-09,1
+CL,Chile,CL-VS,Valparaiso,Los Andes,daily,2026-10-10,1
 CL,Chile,CL-VS,Valparaiso,Quillota,daily,1990-01-01,3
 CL,Chile,CL-VS,Valparaiso,Quillota,daily,1990-01-02,5
 CL,Chile,CL-VS,Valparaiso,Quillota,daily,1990-01-03,2
@@ -929167,7 +929382,7 @@ CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-07-18,8
 CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-07-19,3
 CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-07-20,9
 CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-07-21,4
-CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-07-22,7
+CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-07-22,8
 CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-07-23,4
 CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-07-24,6
 CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-07-25,8
@@ -929233,12 +929448,19 @@ CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-09-22,4
 CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-09-24,10
 CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-09-25,9
 CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-09-26,7
-CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-09-27,8
+CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-09-27,9
 CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-09-28,6
 CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-09-29,6
 CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-09-30,5
 CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-10-01,5
-CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-10-02,1
+CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-10-02,4
+CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-10-03,4
+CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-10-04,1
+CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-10-05,8
+CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-10-06,2
+CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-10-07,6
+CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-10-08,6
+CL,Chile,CL-VS,Valparaiso,Quillota,daily,2026-10-09,2
 CL,Chile,CL-VS,Valparaiso,San Antonio,daily,1990-01-02,2
 CL,Chile,CL-VS,Valparaiso,San Antonio,daily,1990-01-03,1
 CL,Chile,CL-VS,Valparaiso,San Antonio,daily,1990-01-04,3
@@ -941464,18 +941686,26 @@ CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-09-16,6
 CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-09-17,4
 CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-09-18,2
 CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-09-19,4
-CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-09-20,4
+CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-09-20,5
 CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-09-21,4
 CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-09-22,2
 CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-09-23,4
-CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-09-24,2
+CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-09-24,3
 CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-09-25,7
 CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-09-26,2
 CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-09-27,3
 CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-09-28,8
 CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-09-29,4
-CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-09-30,3
-CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-10-02,1
+CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-09-30,4
+CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-10-01,1
+CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-10-02,4
+CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-10-03,4
+CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-10-04,2
+CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-10-05,4
+CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-10-06,2
+CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-10-07,4
+CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-10-08,4
+CL,Chile,CL-VS,Valparaiso,San Antonio,daily,2026-10-09,1
 CL,Chile,CL-VS,Valparaiso,San Felipe,daily,1990-01-01,4
 CL,Chile,CL-VS,Valparaiso,San Felipe,daily,1990-01-03,1
 CL,Chile,CL-VS,Valparaiso,San Felipe,daily,1990-01-04,1
@@ -953418,11 +953648,17 @@ CL,Chile,CL-VS,Valparaiso,San Felipe,daily,2026-09-24,4
 CL,Chile,CL-VS,Valparaiso,San Felipe,daily,2026-09-25,5
 CL,Chile,CL-VS,Valparaiso,San Felipe,daily,2026-09-26,4
 CL,Chile,CL-VS,Valparaiso,San Felipe,daily,2026-09-27,7
-CL,Chile,CL-VS,Valparaiso,San Felipe,daily,2026-09-28,3
+CL,Chile,CL-VS,Valparaiso,San Felipe,daily,2026-09-28,4
 CL,Chile,CL-VS,Valparaiso,San Felipe,daily,2026-09-29,3
 CL,Chile,CL-VS,Valparaiso,San Felipe,daily,2026-09-30,2
-CL,Chile,CL-VS,Valparaiso,San Felipe,daily,2026-10-01,3
-CL,Chile,CL-VS,Valparaiso,San Felipe,daily,2026-10-02,1
+CL,Chile,CL-VS,Valparaiso,San Felipe,daily,2026-10-01,4
+CL,Chile,CL-VS,Valparaiso,San Felipe,daily,2026-10-02,6
+CL,Chile,CL-VS,Valparaiso,San Felipe,daily,2026-10-03,1
+CL,Chile,CL-VS,Valparaiso,San Felipe,daily,2026-10-04,2
+CL,Chile,CL-VS,Valparaiso,San Felipe,daily,2026-10-05,2
+CL,Chile,CL-VS,Valparaiso,San Felipe,daily,2026-10-06,2
+CL,Chile,CL-VS,Valparaiso,San Felipe,daily,2026-10-07,4
+CL,Chile,CL-VS,Valparaiso,San Felipe,daily,2026-10-08,4
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,1990-01-01,21
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,1990-01-02,9
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,1990-01-03,13
@@ -966756,7 +966992,7 @@ CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-06-30,29
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-07-01,24
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-07-02,23
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-07-03,29
-CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-07-04,26
+CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-07-04,27
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-07-05,26
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-07-06,24
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-07-07,36
@@ -966805,7 +967041,7 @@ CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-08-18,27
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-08-19,27
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-08-20,26
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-08-21,28
-CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-08-22,24
+CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-08-22,25
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-08-23,17
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-08-24,30
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-08-25,23
@@ -966838,15 +967074,22 @@ CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-09-20,24
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-09-21,25
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-09-22,22
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-09-23,28
-CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-09-24,37
+CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-09-24,38
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-09-25,18
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-09-26,20
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-09-27,26
 CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-09-28,22
-CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-09-29,22
-CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-09-30,18
-CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-10-01,21
-CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-10-02,4
+CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-09-29,23
+CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-09-30,21
+CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-10-01,25
+CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-10-02,25
+CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-10-03,23
+CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-10-04,23
+CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-10-05,22
+CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-10-06,18
+CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-10-07,24
+CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-10-08,18
+CL,Chile,CL-VS,Valparaiso,Valparaíso,daily,2026-10-09,9
 CL,Chile,CL-NB,Ñuble,Ñuble,daily,1990-01-01,14
 CL,Chile,CL-NB,Ñuble,Ñuble,daily,1990-01-02,12
 CL,Chile,CL-NB,Ñuble,Ñuble,daily,1990-01-03,14
@@ -980249,7 +980492,7 @@ CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-14,12
 CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-15,9
 CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-16,13
 CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-17,10
-CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-18,10
+CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-18,11
 CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-19,6
 CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-20,11
 CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-21,9
@@ -980257,13 +980500,20 @@ CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-22,15
 CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-23,15
 CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-24,9
 CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-25,11
-CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-26,14
+CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-26,15
 CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-27,12
-CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-28,8
+CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-28,9
 CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-29,9
 CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-09-30,4
 CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-10-01,10
-CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-10-02,10
+CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-10-02,15
+CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-10-03,9
+CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-10-04,12
+CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-10-05,11
+CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-10-06,14
+CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-10-07,12
+CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-10-08,13
+CL,Chile,CL-NB,Ñuble,Ñuble,daily,2026-10-09,6
 EC,Ecuador,EC-A,Azuay,Cuenca,daily,2015-01-01,7
 EC,Ecuador,EC-A,Azuay,Cuenca,daily,2015-01-02,5
 EC,Ecuador,EC-A,Azuay,Cuenca,daily,2015-01-03,6
@@ -1302189,7 +1302439,7 @@ PY,Paraguay,PY-10,Alto Parana,Ciudad del Este,monthly,2026-06-01,138
 PY,Paraguay,PY-10,Alto Parana,Ciudad del Este,monthly,2026-07-01,142
 PY,Paraguay,PY-10,Alto Parana,Ciudad del Este,monthly,2026-08-01,134
 PY,Paraguay,PY-10,Alto Parana,Ciudad del Este,monthly,2026-09-01,127
-PY,Paraguay,PY-10,Alto Parana,Ciudad del Este,monthly,2026-10-01,19
+PY,Paraguay,PY-10,Alto Parana,Ciudad del Este,monthly,2026-10-01,39
 PY,Paraguay,PY-10,Alto Parana,Presidente Franco,monthly,2015-01-01,23
 PY,Paraguay,PY-10,Alto Parana,Presidente Franco,monthly,2015-02-01,13
 PY,Paraguay,PY-10,Alto Parana,Presidente Franco,monthly,2015-03-01,13
@@ -1302331,7 +1302581,7 @@ PY,Paraguay,PY-10,Alto Parana,Presidente Franco,monthly,2026-06-01,16
 PY,Paraguay,PY-10,Alto Parana,Presidente Franco,monthly,2026-07-01,15
 PY,Paraguay,PY-10,Alto Parana,Presidente Franco,monthly,2026-08-01,26
 PY,Paraguay,PY-10,Alto Parana,Presidente Franco,monthly,2026-09-01,14
-PY,Paraguay,PY-10,Alto Parana,Presidente Franco,monthly,2026-10-01,10
+PY,Paraguay,PY-10,Alto Parana,Presidente Franco,monthly,2026-10-01,12
 PY,Paraguay,PY-13,Amambay,Pedro Juan Caballero,monthly,2015-01-01,53
 PY,Paraguay,PY-13,Amambay,Pedro Juan Caballero,monthly,2015-02-01,35
 PY,Paraguay,PY-13,Amambay,Pedro Juan Caballero,monthly,2015-03-01,44
@@ -1302607,14 +1302857,14 @@ PY,Paraguay,PY-ASU,Asuncion,Asuncion,monthly,2025-11-01,523
 PY,Paraguay,PY-ASU,Asuncion,Asuncion,monthly,2025-12-01,525
 PY,Paraguay,PY-ASU,Asuncion,Asuncion,monthly,2026-01-01,533
 PY,Paraguay,PY-ASU,Asuncion,Asuncion,monthly,2026-02-01,478
-PY,Paraguay,PY-ASU,Asuncion,Asuncion,monthly,2026-03-01,528
+PY,Paraguay,PY-ASU,Asuncion,Asuncion,monthly,2026-03-01,529
 PY,Paraguay,PY-ASU,Asuncion,Asuncion,monthly,2026-04-01,592
 PY,Paraguay,PY-ASU,Asuncion,Asuncion,monthly,2026-05-01,568
 PY,Paraguay,PY-ASU,Asuncion,Asuncion,monthly,2026-06-01,567
 PY,Paraguay,PY-ASU,Asuncion,Asuncion,monthly,2026-07-01,602
 PY,Paraguay,PY-ASU,Asuncion,Asuncion,monthly,2026-08-01,538
-PY,Paraguay,PY-ASU,Asuncion,Asuncion,monthly,2026-09-01,475
-PY,Paraguay,PY-ASU,Asuncion,Asuncion,monthly,2026-10-01,123
+PY,Paraguay,PY-ASU,Asuncion,Asuncion,monthly,2026-09-01,483
+PY,Paraguay,PY-ASU,Asuncion,Asuncion,monthly,2026-10-01,192
 PY,Paraguay,PY-19,Boqueron,Mariscal Jose Felix Estigarribia,monthly,2015-01-01,19
 PY,Paraguay,PY-19,Boqueron,Mariscal Jose Felix Estigarribia,monthly,2015-02-01,4
 PY,Paraguay,PY-19,Boqueron,Mariscal Jose Felix Estigarribia,monthly,2015-03-01,12
@@ -1302755,6 +1303005,7 @@ PY,Paraguay,PY-19,Boqueron,Mariscal Jose Felix Estigarribia,monthly,2026-05-01,5
 PY,Paraguay,PY-19,Boqueron,Mariscal Jose Felix Estigarribia,monthly,2026-06-01,4
 PY,Paraguay,PY-19,Boqueron,Mariscal Jose Felix Estigarribia,monthly,2026-07-01,8
 PY,Paraguay,PY-19,Boqueron,Mariscal Jose Felix Estigarribia,monthly,2026-08-01,5
+PY,Paraguay,PY-19,Boqueron,Mariscal Jose Felix Estigarribia,monthly,2026-09-01,3
 PY,Paraguay,PY-19,Boqueron,Mariscal Jose Felix Estigarribia,monthly,2026-10-01,0
 PY,Paraguay,PY-5,Caaguazu,Caaguazu,monthly,2015-01-01,34
 PY,Paraguay,PY-5,Caaguazu,Caaguazu,monthly,2015-02-01,38
@@ -1302897,7 +1303148,7 @@ PY,Paraguay,PY-5,Caaguazu,Caaguazu,monthly,2026-06-01,36
 PY,Paraguay,PY-5,Caaguazu,Caaguazu,monthly,2026-07-01,32
 PY,Paraguay,PY-5,Caaguazu,Caaguazu,monthly,2026-08-01,48
 PY,Paraguay,PY-5,Caaguazu,Caaguazu,monthly,2026-09-01,38
-PY,Paraguay,PY-5,Caaguazu,Caaguazu,monthly,2026-10-01,1
+PY,Paraguay,PY-5,Caaguazu,Caaguazu,monthly,2026-10-01,2
 PY,Paraguay,PY-5,Caaguazu,Coronel Oviedo,monthly,2015-01-01,58
 PY,Paraguay,PY-5,Caaguazu,Coronel Oviedo,monthly,2015-02-01,48
 PY,Paraguay,PY-5,Caaguazu,Coronel Oviedo,monthly,2015-03-01,45
@@ -1303039,7 +1303290,7 @@ PY,Paraguay,PY-5,Caaguazu,Coronel Oviedo,monthly,2026-06-01,109
 PY,Paraguay,PY-5,Caaguazu,Coronel Oviedo,monthly,2026-07-01,113
 PY,Paraguay,PY-5,Caaguazu,Coronel Oviedo,monthly,2026-08-01,98
 PY,Paraguay,PY-5,Caaguazu,Coronel Oviedo,monthly,2026-09-01,79
-PY,Paraguay,PY-5,Caaguazu,Coronel Oviedo,monthly,2026-10-01,5
+PY,Paraguay,PY-5,Caaguazu,Coronel Oviedo,monthly,2026-10-01,32
 PY,Paraguay,PY-6,Caazapa,Yuty,monthly,2015-01-01,10
 PY,Paraguay,PY-6,Caazapa,Yuty,monthly,2015-02-01,5
 PY,Paraguay,PY-6,Caazapa,Yuty,monthly,2015-03-01,7
@@ -1303461,10 +1303712,10 @@ PY,Paraguay,PY-11,Central,Capiata,monthly,2026-03-01,111
 PY,Paraguay,PY-11,Central,Capiata,monthly,2026-04-01,96
 PY,Paraguay,PY-11,Central,Capiata,monthly,2026-05-01,129
 PY,Paraguay,PY-11,Central,Capiata,monthly,2026-06-01,126
-PY,Paraguay,PY-11,Central,Capiata,monthly,2026-07-01,119
-PY,Paraguay,PY-11,Central,Capiata,monthly,2026-08-01,117
-PY,Paraguay,PY-11,Central,Capiata,monthly,2026-09-01,97
-PY,Paraguay,PY-11,Central,Capiata,monthly,2026-10-01,29
+PY,Paraguay,PY-11,Central,Capiata,monthly,2026-07-01,120
+PY,Paraguay,PY-11,Central,Capiata,monthly,2026-08-01,119
+PY,Paraguay,PY-11,Central,Capiata,monthly,2026-09-01,99
+PY,Paraguay,PY-11,Central,Capiata,monthly,2026-10-01,60
 PY,Paraguay,PY-11,Central,Fernando de la Mora,monthly,2015-01-01,28
 PY,Paraguay,PY-11,Central,Fernando de la Mora,monthly,2015-02-01,24
 PY,Paraguay,PY-11,Central,Fernando de la Mora,monthly,2015-03-01,33
@@ -1303602,11 +1303853,11 @@ PY,Paraguay,PY-11,Central,Fernando de la Mora,monthly,2026-02-01,82
 PY,Paraguay,PY-11,Central,Fernando de la Mora,monthly,2026-03-01,91
 PY,Paraguay,PY-11,Central,Fernando de la Mora,monthly,2026-04-01,87
 PY,Paraguay,PY-11,Central,Fernando de la Mora,monthly,2026-05-01,95
-PY,Paraguay,PY-11,Central,Fernando de la Mora,monthly,2026-06-01,93
-PY,Paraguay,PY-11,Central,Fernando de la Mora,monthly,2026-07-01,102
+PY,Paraguay,PY-11,Central,Fernando de la Mora,monthly,2026-06-01,94
+PY,Paraguay,PY-11,Central,Fernando de la Mora,monthly,2026-07-01,105
 PY,Paraguay,PY-11,Central,Fernando de la Mora,monthly,2026-08-01,96
-PY,Paraguay,PY-11,Central,Fernando de la Mora,monthly,2026-09-01,46
-PY,Paraguay,PY-11,Central,Fernando de la Mora,monthly,2026-10-01,14
+PY,Paraguay,PY-11,Central,Fernando de la Mora,monthly,2026-09-01,82
+PY,Paraguay,PY-11,Central,Fernando de la Mora,monthly,2026-10-01,33
 PY,Paraguay,PY-11,Central,Itaugua,monthly,2015-01-01,139
 PY,Paraguay,PY-11,Central,Itaugua,monthly,2015-02-01,99
 PY,Paraguay,PY-11,Central,Itaugua,monthly,2015-03-01,128
@@ -1303727,7 +1303978,7 @@ PY,Paraguay,PY-11,Central,Itaugua,monthly,2024-09-01,161
 PY,Paraguay,PY-11,Central,Itaugua,monthly,2024-10-01,163
 PY,Paraguay,PY-11,Central,Itaugua,monthly,2024-11-01,148
 PY,Paraguay,PY-11,Central,Itaugua,monthly,2024-12-01,163
-PY,Paraguay,PY-11,Central,Itaugua,monthly,2025-01-01,148
+PY,Paraguay,PY-11,Central,Itaugua,monthly,2025-01-01,147
 PY,Paraguay,PY-11,Central,Itaugua,monthly,2025-02-01,149
 PY,Paraguay,PY-11,Central,Itaugua,monthly,2025-03-01,175
 PY,Paraguay,PY-11,Central,Itaugua,monthly,2025-04-01,176
@@ -1303739,16 +1303990,16 @@ PY,Paraguay,PY-11,Central,Itaugua,monthly,2025-09-01,149
 PY,Paraguay,PY-11,Central,Itaugua,monthly,2025-10-01,165
 PY,Paraguay,PY-11,Central,Itaugua,monthly,2025-11-01,157
 PY,Paraguay,PY-11,Central,Itaugua,monthly,2025-12-01,172
-PY,Paraguay,PY-11,Central,Itaugua,monthly,2026-01-01,171
+PY,Paraguay,PY-11,Central,Itaugua,monthly,2026-01-01,172
 PY,Paraguay,PY-11,Central,Itaugua,monthly,2026-02-01,123
-PY,Paraguay,PY-11,Central,Itaugua,monthly,2026-03-01,154
+PY,Paraguay,PY-11,Central,Itaugua,monthly,2026-03-01,153
 PY,Paraguay,PY-11,Central,Itaugua,monthly,2026-04-01,160
 PY,Paraguay,PY-11,Central,Itaugua,monthly,2026-05-01,189
 PY,Paraguay,PY-11,Central,Itaugua,monthly,2026-06-01,181
 PY,Paraguay,PY-11,Central,Itaugua,monthly,2026-07-01,177
-PY,Paraguay,PY-11,Central,Itaugua,monthly,2026-08-01,184
-PY,Paraguay,PY-11,Central,Itaugua,monthly,2026-09-01,174
-PY,Paraguay,PY-11,Central,Itaugua,monthly,2026-10-01,55
+PY,Paraguay,PY-11,Central,Itaugua,monthly,2026-08-01,187
+PY,Paraguay,PY-11,Central,Itaugua,monthly,2026-09-01,175
+PY,Paraguay,PY-11,Central,Itaugua,monthly,2026-10-01,89
 PY,Paraguay,PY-11,Central,Lambare,monthly,2015-01-01,34
 PY,Paraguay,PY-11,Central,Lambare,monthly,2015-02-01,31
 PY,Paraguay,PY-11,Central,Lambare,monthly,2015-03-01,39
@@ -1303889,7 +1304140,7 @@ PY,Paraguay,PY-11,Central,Lambare,monthly,2026-05-01,67
 PY,Paraguay,PY-11,Central,Lambare,monthly,2026-06-01,51
 PY,Paraguay,PY-11,Central,Lambare,monthly,2026-07-01,50
 PY,Paraguay,PY-11,Central,Lambare,monthly,2026-08-01,48
-PY,Paraguay,PY-11,Central,Lambare,monthly,2026-09-01,38
+PY,Paraguay,PY-11,Central,Lambare,monthly,2026-09-01,43
 PY,Paraguay,PY-11,Central,Lambare,monthly,2026-10-01,4
 PY,Paraguay,PY-11,Central,Limpio,monthly,2015-01-01,29
 PY,Paraguay,PY-11,Central,Limpio,monthly,2015-02-01,20
@@ -1304032,7 +1304283,7 @@ PY,Paraguay,PY-11,Central,Limpio,monthly,2026-06-01,31
 PY,Paraguay,PY-11,Central,Limpio,monthly,2026-07-01,34
 PY,Paraguay,PY-11,Central,Limpio,monthly,2026-08-01,27
 PY,Paraguay,PY-11,Central,Limpio,monthly,2026-09-01,31
-PY,Paraguay,PY-11,Central,Limpio,monthly,2026-10-01,1
+PY,Paraguay,PY-11,Central,Limpio,monthly,2026-10-01,11
 PY,Paraguay,PY-11,Central,Luque,monthly,2015-01-01,87
 PY,Paraguay,PY-11,Central,Luque,monthly,2015-02-01,51
 PY,Paraguay,PY-11,Central,Luque,monthly,2015-03-01,84
@@ -1304171,10 +1304422,10 @@ PY,Paraguay,PY-11,Central,Luque,monthly,2026-03-01,103
 PY,Paraguay,PY-11,Central,Luque,monthly,2026-04-01,97
 PY,Paraguay,PY-11,Central,Luque,monthly,2026-05-01,97
 PY,Paraguay,PY-11,Central,Luque,monthly,2026-06-01,102
-PY,Paraguay,PY-11,Central,Luque,monthly,2026-07-01,108
-PY,Paraguay,PY-11,Central,Luque,monthly,2026-08-01,115
-PY,Paraguay,PY-11,Central,Luque,monthly,2026-09-01,88
-PY,Paraguay,PY-11,Central,Luque,monthly,2026-10-01,29
+PY,Paraguay,PY-11,Central,Luque,monthly,2026-07-01,109
+PY,Paraguay,PY-11,Central,Luque,monthly,2026-08-01,116
+PY,Paraguay,PY-11,Central,Luque,monthly,2026-09-01,90
+PY,Paraguay,PY-11,Central,Luque,monthly,2026-10-01,47
 PY,Paraguay,PY-11,Central,Mariano Roque Alonso,monthly,2015-01-01,20
 PY,Paraguay,PY-11,Central,Mariano Roque Alonso,monthly,2015-02-01,14
 PY,Paraguay,PY-11,Central,Mariano Roque Alonso,monthly,2015-03-01,13
@@ -1304448,17 +1304699,17 @@ PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2025-08-01,173
 PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2025-09-01,146
 PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2025-10-01,164
 PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2025-11-01,150
-PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2025-12-01,161
+PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2025-12-01,162
 PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2026-01-01,146
 PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2026-02-01,131
 PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2026-03-01,150
 PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2026-04-01,168
-PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2026-05-01,162
-PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2026-06-01,187
-PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2026-07-01,182
-PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2026-08-01,171
-PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2026-09-01,162
-PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2026-10-01,23
+PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2026-05-01,163
+PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2026-06-01,188
+PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2026-07-01,184
+PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2026-08-01,174
+PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2026-09-01,165
+PY,Paraguay,PY-11,Central,San Lorenzo,monthly,2026-10-01,60
 PY,Paraguay,PY-11,Central,Ñemby,monthly,2015-01-01,19
 PY,Paraguay,PY-11,Central,Ñemby,monthly,2015-02-01,15
 PY,Paraguay,PY-11,Central,Ñemby,monthly,2015-03-01,15
@@ -1304598,9 +1304849,9 @@ PY,Paraguay,PY-11,Central,Ñemby,monthly,2026-04-01,38
 PY,Paraguay,PY-11,Central,Ñemby,monthly,2026-05-01,44
 PY,Paraguay,PY-11,Central,Ñemby,monthly,2026-06-01,39
 PY,Paraguay,PY-11,Central,Ñemby,monthly,2026-07-01,35
-PY,Paraguay,PY-11,Central,Ñemby,monthly,2026-08-01,36
+PY,Paraguay,PY-11,Central,Ñemby,monthly,2026-08-01,37
 PY,Paraguay,PY-11,Central,Ñemby,monthly,2026-09-01,28
-PY,Paraguay,PY-11,Central,Ñemby,monthly,2026-10-01,12
+PY,Paraguay,PY-11,Central,Ñemby,monthly,2026-10-01,17
 PY,Paraguay,PY-1,Concepcion,Concepcion,monthly,2015-01-01,49
 PY,Paraguay,PY-1,Concepcion,Concepcion,monthly,2015-02-01,33
 PY,Paraguay,PY-1,Concepcion,Concepcion,monthly,2015-03-01,38
@@ -1304882,7 +1305133,7 @@ PY,Paraguay,PY-3,Cordillera,Caacupe,monthly,2026-06-01,35
 PY,Paraguay,PY-3,Cordillera,Caacupe,monthly,2026-07-01,45
 PY,Paraguay,PY-3,Cordillera,Caacupe,monthly,2026-08-01,40
 PY,Paraguay,PY-3,Cordillera,Caacupe,monthly,2026-09-01,38
-PY,Paraguay,PY-3,Cordillera,Caacupe,monthly,2026-10-01,1
+PY,Paraguay,PY-3,Cordillera,Caacupe,monthly,2026-10-01,2
 PY,Paraguay,PY-4,Guaira,Villarrica,monthly,2015-01-01,39
 PY,Paraguay,PY-4,Guaira,Villarrica,monthly,2015-02-01,35
 PY,Paraguay,PY-4,Guaira,Villarrica,monthly,2015-03-01,48
@@ -1305023,8 +1305274,8 @@ PY,Paraguay,PY-4,Guaira,Villarrica,monthly,2026-05-01,61
 PY,Paraguay,PY-4,Guaira,Villarrica,monthly,2026-06-01,66
 PY,Paraguay,PY-4,Guaira,Villarrica,monthly,2026-07-01,73
 PY,Paraguay,PY-4,Guaira,Villarrica,monthly,2026-08-01,68
-PY,Paraguay,PY-4,Guaira,Villarrica,monthly,2026-09-01,49
-PY,Paraguay,PY-4,Guaira,Villarrica,monthly,2026-10-01,1
+PY,Paraguay,PY-4,Guaira,Villarrica,monthly,2026-09-01,48
+PY,Paraguay,PY-4,Guaira,Villarrica,monthly,2026-10-01,11
 PY,Paraguay,PY-7,Itapua,Encarnacion,monthly,2015-01-01,77
 PY,Paraguay,PY-7,Itapua,Encarnacion,monthly,2015-02-01,74
 PY,Paraguay,PY-7,Itapua,Encarnacion,monthly,2015-03-01,78
@@ -1305165,8 +1305416,8 @@ PY,Paraguay,PY-7,Itapua,Encarnacion,monthly,2026-05-01,114
 PY,Paraguay,PY-7,Itapua,Encarnacion,monthly,2026-06-01,98
 PY,Paraguay,PY-7,Itapua,Encarnacion,monthly,2026-07-01,100
 PY,Paraguay,PY-7,Itapua,Encarnacion,monthly,2026-08-01,77
-PY,Paraguay,PY-7,Itapua,Encarnacion,monthly,2026-09-01,68
-PY,Paraguay,PY-7,Itapua,Encarnacion,monthly,2026-10-01,0
+PY,Paraguay,PY-7,Itapua,Encarnacion,monthly,2026-09-01,80
+PY,Paraguay,PY-7,Itapua,Encarnacion,monthly,2026-10-01,25
 PY,Paraguay,PY-8,Misiones,San Ignacio,monthly,2015-01-01,7
 PY,Paraguay,PY-8,Misiones,San Ignacio,monthly,2015-02-01,3
 PY,Paraguay,PY-8,Misiones,San Ignacio,monthly,2015-03-01,11
@@ -1305448,9 +1305699,9 @@ PY,Paraguay,PY-12,Neembucu,Pilar,monthly,2026-04-01,24
 PY,Paraguay,PY-12,Neembucu,Pilar,monthly,2026-05-01,28
 PY,Paraguay,PY-12,Neembucu,Pilar,monthly,2026-06-01,26
 PY,Paraguay,PY-12,Neembucu,Pilar,monthly,2026-07-01,37
-PY,Paraguay,PY-12,Neembucu,Pilar,monthly,2026-08-01,38
+PY,Paraguay,PY-12,Neembucu,Pilar,monthly,2026-08-01,39
 PY,Paraguay,PY-12,Neembucu,Pilar,monthly,2026-09-01,28
-PY,Paraguay,PY-12,Neembucu,Pilar,monthly,2026-10-01,5
+PY,Paraguay,PY-12,Neembucu,Pilar,monthly,2026-10-01,10
 PY,Paraguay,PY-9,Paraguari,Carapegua,monthly,2015-01-01,13
 PY,Paraguay,PY-9,Paraguari,Carapegua,monthly,2015-02-01,10
 PY,Paraguay,PY-9,Paraguari,Carapegua,monthly,2015-03-01,12
@@ -1305592,7 +1305843,7 @@ PY,Paraguay,PY-9,Paraguari,Carapegua,monthly,2026-06-01,13
 PY,Paraguay,PY-9,Paraguari,Carapegua,monthly,2026-07-01,25
 PY,Paraguay,PY-9,Paraguari,Carapegua,monthly,2026-08-01,9
 PY,Paraguay,PY-9,Paraguari,Carapegua,monthly,2026-09-01,20
-PY,Paraguay,PY-9,Paraguari,Carapegua,monthly,2026-10-01,4
+PY,Paraguay,PY-9,Paraguari,Carapegua,monthly,2026-10-01,6
 PY,Paraguay,PY-15,Presidente Hayes,Villa Hayes,monthly,2015-01-01,5
 PY,Paraguay,PY-15,Presidente Hayes,Villa Hayes,monthly,2015-02-01,17
 PY,Paraguay,PY-15,Presidente Hayes,Villa Hayes,monthly,2015-03-01,11
@@ -1305733,8 +1305984,8 @@ PY,Paraguay,PY-15,Presidente Hayes,Villa Hayes,monthly,2026-05-01,39
 PY,Paraguay,PY-15,Presidente Hayes,Villa Hayes,monthly,2026-06-01,42
 PY,Paraguay,PY-15,Presidente Hayes,Villa Hayes,monthly,2026-07-01,27
 PY,Paraguay,PY-15,Presidente Hayes,Villa Hayes,monthly,2026-08-01,33
-PY,Paraguay,PY-15,Presidente Hayes,Villa Hayes,monthly,2026-09-01,28
-PY,Paraguay,PY-15,Presidente Hayes,Villa Hayes,monthly,2026-10-01,8
+PY,Paraguay,PY-15,Presidente Hayes,Villa Hayes,monthly,2026-09-01,32
+PY,Paraguay,PY-15,Presidente Hayes,Villa Hayes,monthly,2026-10-01,13
 PY,Paraguay,PY-2,San Pedro,San Estanislao,monthly,2015-01-01,19
 PY,Paraguay,PY-2,San Pedro,San Estanislao,monthly,2015-02-01,16
 PY,Paraguay,PY-2,San Pedro,San Estanislao,monthly,2015-03-01,20
@@ -1305876,3 +1306127,4 @@ PY,Paraguay,PY-2,San Pedro,San Estanislao,monthly,2026-06-01,33
 PY,Paraguay,PY-2,San Pedro,San Estanislao,monthly,2026-07-01,22
 PY,Paraguay,PY-2,San Pedro,San Estanislao,monthly,2026-08-01,6
 PY,Paraguay,PY-2,San Pedro,San Estanislao,monthly,2026-09-01,4
+PY,Paraguay,PY-2,San Pedro,San Estanislao,monthly,2026-10-01,0
