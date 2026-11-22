@@ -317,7 +317,7 @@ def update_brazil():
             continue
 
         data = pd.DataFrame.from_dict(reqj['chart'])
-        data = data.applymap(
+        data = data.map(
             lambda _: _[0]['total'] if type(_) == list else _
         ).T
         data.index = pd.to_datetime(data.index)
@@ -403,7 +403,11 @@ def update_ecuador():
     elif download_url.endswith('xlsb'):
         dept_engine = 'pyxlsb'
 
-    df = pd.read_excel(cdata.content, engine=dept_engine, header=None)
+    df = pd.read_excel(
+        io.BytesIO(cdata.content),
+        engine=dept_engine,
+        header=None
+    )
     df = df[~df.isna().all(axis=1)]
 
     try:
@@ -417,7 +421,7 @@ def update_ecuador():
 
     df = df[df['zona'] != 'ND']
     df = df.drop(['zona', 'mes', 'dia'], axis=1)
-    df.iloc[:, :3] = df.iloc[:, :3].applymap(do_title)
+    df.iloc[:, :3] = df.iloc[:, :3].map(do_title)
 
     df['provincia'] = df['provincia'].replace(ECU_PROVINCIAS_MAP)
     df['canton'] = df['canton'].replace(ECU_CANTONES_MAP)
@@ -562,7 +566,7 @@ def update_colombia():
     df = perkins.input.powerbi.inflate_data(
         data, ['date', 'adm1_name', 'deaths']
     )
-    df = df.replace('', np.nan).fillna(method='ffill')
+    df = df.replace('', np.nan).ffill()
     df['date'] = pd.to_datetime(df['date'], unit='ms')
 
     df['adm1_name'] = df['adm1_name'].replace({
@@ -585,7 +589,7 @@ def update_colombia():
     }
 
 
-PERU_URL = 'https://files.minsa.gob.pe/s/a6Hmynsenb7Px2y/download?path=%2F&files=SINADEF_DATOS_ABIERTOS.csv'
+PERU_URL = 'https://files.minsa.gob.pe/public.php/dav/files/RjeWiJt2wX3pMdG/SINADEF_DATOS_ABIERTOS.csv'
 def update_peru():
     cdata = requests.get(PERU_URL, headers=perkins.DEFAULT_HEADERS)
     df = pd.read_csv(io.BytesIO(cdata.content), encoding='utf-8', on_bad_lines='skip')
@@ -697,7 +701,7 @@ def do_download_paraguay(dept_code, year=2021):
 
     df = df.iloc[:, :-1]
 
-    df = df.applymap(lambda _: int(str(_).replace('.', '')))
+    df = df.map(lambda _: int(str(_).replace('.', '')))
     df = df[df.columns[df.sum() > 0]]
 
     df = df.unstack().reset_index()
